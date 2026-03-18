@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://jvalverr.github.io//al-folio/sitemap.xml
+Sitemap: http://jvalverr.github.io//sitemap.xml
