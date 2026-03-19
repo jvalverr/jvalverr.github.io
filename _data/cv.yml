@@ -1,16 +1,14 @@
 cv:
   name: "Jorge Carlos Valverde-Rebaza"
   position: "Professor of Computer Science"
-  email: ""
+  email: "example@email.com"
   location: "Mexico City, MX"
-  image: ""
+  image: "https://via.placeholder.com/150"
+
   summary: >
-    Professor and researcher in computer science, data analytics, and artificial intelligence,
-    with experience in academia and industry across Mexico, Brazil, Peru, and Europe.
+    Professor and researcher in computer science, data analytics, and artificial intelligence.
 
   social_networks:
-    - network: X
-      username: jvalverr
     - network: GitHub
       username: jvalverr
     - network: LinkedIn
@@ -18,127 +16,48 @@ cv:
 
   sections:
     Education:
-      - institution: "Consejo Nacional de Ciencia y Tecnología e Innovación Tecnológica (CONCYTEC)"
-        location: "Lima, Peru"
-        area: "Investigador RENACYT (Grupo Carlos Monge Medrano - Nivel III)"
-        studyType: "Qualification"
-        start_date: 2019-10-01
-        end_date: 2021-10-01
-        highlights:
-          - "CÓDIGO RENACYT: P0005495"
-
       - institution: "Universidade de São Paulo"
-        location: "Sao Paulo, SP, Brazil"
-        area: "Doctor in Computer Science and Computational Mathematics"
+        location: "Brazil"
+        area: "PhD in Computer Science"
         studyType: "PhD"
         start_date: 2013
         end_date: 2017
 
-      - institution: "Université de Montpellier"
-        location: "Montpellier, France"
-        area: "Scientific Visitant"
-        studyType: "Research Visit"
-        start_date: 2015
-        end_date: 2015
-
-      - institution: "Universidade do Porto"
-        location: "Porto, Portugal"
-        area: "Scientific Visitant"
-        studyType: "Research Visit"
-        start_date: 2014
-        end_date: 2014
-
       - institution: "Universidade de São Paulo"
-        location: "Sao Paulo, SP, Brazil"
-        area: "Master in Computer Science and Computational Mathematics"
-        studyType: "MSc"
+        location: "Brazil"
+        area: "MSc in Computer Science"
+        studyType: "Master"
         start_date: 2011
         end_date: 2013
 
-      - institution: "Universidad Nacional de Trujillo"
-        location: "Trujillo, La Libertad, Peru"
-        area: "Bachelor in Computer Science"
-        studyType: "Bachelor"
-        start_date: 2004
-        end_date: 2008
-
     Experience:
       - company: "Tecnológico de Monterrey"
-        position: "Professor, School of Engineering and Science"
-        location: "Mexico City, DF, Mexico"
+        position: "Professor"
+        location: "Mexico"
         start_date: 2020-07-01
         end_date: ""
         highlights:
-          - "Professor at the School of Engineering and Science, involved in teaching and research in data analytics, artificial intelligence, and related areas."
+          - "Teaching and research in AI and data analytics."
 
       - company: "Visibilia"
         position: "Chief Research Scientist"
-        location: "São Paulo, SP, Brazil"
+        location: "Brazil"
         start_date: 2017-09-01
         end_date: 2024-07-05
         highlights:
-          - "Chief Research Scientist leading projects in data science, AI, and business intelligence."
-
-      - company: "Faculdade Impacta"
-        position: "Professor"
-        location: "São Paulo, SP, Brazil"
-        start_date: 2020-02-01
-        end_date: 2020-06-30
-        highlights:
-          - "Professor in computer science-related courses."
-
-      - company: "Universidad Peruana de Ciencias Aplicadas"
-        position: "Associate Professor"
-        location: "Monterrico, Lima, Peru"
-        start_date: 2018-03-01
-        end_date: 2019-07-31
-        highlights:
-          - "Associate Professor in computer science and data analytics."
-
-      - company: "Esan University"
-        position: "Professor"
-        location: "Monterrico, Lima, Peru"
-        start_date: 2018-02-01
-        end_date: 2018-12-15
-        highlights:
-          - "Professor in computer science and related disciplines."
+          - "Led AI and data science projects."
 
     Grants:
       - highlights:
-          - "Generative AI as a tool for building advanced data analytic solutions for students without programming skills. Institute for the Future of Education, Tecnológico de Monterrey (2024–2025)."
-
-      - highlights:
-          - "Digital Media Observatory. Tecnológico de Monterrey (2023–2025)."
-
-      - highlights:
-          - "BEENET: Intelligent employment recommendation systems. FAPESP (2019–2021)."
+          - "Generative AI for education (2024–2025)."
 
     Publications:
-      - title: "Advancing Multi-step Mathematical Reasoning in Large Language Models Through Multi-layered Self-reflection with Auto-prompting"
-        authors:
-          - "André de Souza Loureiro"
-          - "Jorge Valverde-Rebaza"
-        date: 2026
-        url: "https://doi.org/10.1007/978-3-032-06078-5_12"
-
-      - title: "Skill-based employment taxonomy in the global IT industry 5.0"
+      - title: "Skill-based employment taxonomy"
         authors:
           - "Jorge Valverde-Rebaza"
-        date: 2025-04-02
+        date: 2025
         url: "https://doi.org/10.3389/feduc.2025.1418184"
-
-      - title: "Advanced large language models and visualization tools for data analytics learning"
-        authors:
-          - "Jorge Valverde-Rebaza"
-        date: 2024-08-08
-        url: "https://doi.org/10.3389/feduc.2024.1418006"
 
     Service:
       - highlights:
-          - "Reviewer for Computing journal (2021)."
-
-      - highlights:
-          - "Reviewer for Knowledge-Based Systems (2025)."
-
-      - highlights:
-          - "Reviewer for Online Social Networks and Media (2024–2025)."
+          - "Reviewer for academic journals."
