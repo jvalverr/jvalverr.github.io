@@ -1,63 +1,512 @@
 cv:
-  name: "Jorge Carlos Valverde-Rebaza"
-  position: "Professor of Computer Science"
-  email: "example@email.com"
+  name: Jorge Carlos Valverde-Rebaza
+  headline: Professor of Computer Science
+  email: you@example.com
   location: "Mexico City, MX"
-  image: "https://via.placeholder.com/150"
-
-  summary: >
-    Professor and researcher in computer science, data analytics, and artificial intelligence.
 
   social_networks:
+    - network: X
+      username: jvalverr
     - network: GitHub
       username: jvalverr
     - network: LinkedIn
       username: jvalverr
 
   sections:
-    Education:
-      - institution: "Universidade de São Paulo"
-        location: "Brazil"
-        area: "PhD in Computer Science"
-        studyType: "PhD"
-        start_date: 2013
-        end_date: 2017
+    Summary:
+      - bullet: >
+          Professor and researcher in computer science, data analytics, and artificial intelligence,
+          with experience in academia and industry across Mexico, Brazil, Peru, and Europe.
 
-      - institution: "Universidade de São Paulo"
-        location: "Brazil"
-        area: "MSc in Computer Science"
-        studyType: "Master"
-        start_date: 2011
-        end_date: 2013
+    Education:
+      - institution: Consejo Nacional de Ciencia y Tecnología e Innovación Tecnológica (CONCYTEC)
+        location: Lima, Peru
+        area: Investigador RENACYT (Grupo Carlos Monge Medrano - Nivel III)
+        degree: Qualification
+        start_date: 2019-10-01
+        end_date: 2021-10-01
+        highlights:
+          - "CÓDIGO RENACYT: P0005495"
+
+      - institution: Universidade de São Paulo
+        location: Sao Paulo, SP, Brazil
+        area: Doctor in Computer Science and Computational Mathematics
+        degree: PhD
+        start_date: "2013"
+        end_date: "2017"
+        highlights:
+          - "Instituto de Ciências Matemáticas e de Computação"
+
+      - institution: Université de Montpellier
+        location: Montpellier, France
+        area: Scientific Visitant
+        degree: Research Visit
+        start_date: "2015"
+        end_date: "2015"
+        highlights:
+          - "Montpellier Laboratory of Informatics, Robotics and Microelectronics (LIRMM)"
+
+      - institution: Universidade do Porto
+        location: Porto, Portugal
+        area: Scientific Visitant
+        degree: Research Visit
+        start_date: "2014"
+        end_date: "2014"
+        highlights:
+          - "Laboratory of Artificial Intelligence and Decision Support (LIAAD)"
+
+      - institution: Universidade de São Paulo
+        location: Sao Paulo, SP, Brazil
+        area: Master in Computer Science and Computational Mathematics
+        degree: MSc
+        start_date: "2011"
+        end_date: "2013"
+        highlights:
+          - "Instituto de Ciências Matemáticas e de Computação"
+
+      - institution: Universidad Nacional de Trujillo
+        location: Trujillo, La Libertad, Peru
+        area: Bachelor in Computer Science
+        degree: Bachelor
+        start_date: "2004"
+        end_date: "2008"
+        highlights:
+          - "Facultad de Ciencias Físicas y Matemáticas"
 
     Experience:
-      - company: "Tecnológico de Monterrey"
-        position: "Professor"
-        location: "Mexico"
+      - company: Tecnológico de Monterrey
+        position: Professor, School of Engineering and Science
+        location: Mexico City, DF, Mexico
         start_date: 2020-07-01
-        end_date: ""
-        highlights:
-          - "Teaching and research in AI and data analytics."
+        end_date: present
+        summary: >
+          Professor at the School of Engineering and Science, involved in teaching and research
+          in data analytics, artificial intelligence, and related areas.
 
-      - company: "Visibilia"
-        position: "Chief Research Scientist"
-        location: "Brazil"
+      - company: Visibilia
+        position: Chief Research Scientist
+        location: São Paulo, SP, Brazil
         start_date: 2017-09-01
         end_date: 2024-07-05
-        highlights:
-          - "Led AI and data science projects."
+        summary: >
+          Chief Research Scientist at the Department of Scientific Research, leading projects in
+          data science, AI, and business intelligence.
 
-    Grants:
-      - highlights:
-          - "Generative AI for education (2024–2025)."
+      - company: Faculdade Impacta
+        position: Professor
+        location: São Paulo, SP, Brazil
+        start_date: 2020-02-01
+        end_date: 2020-06-30
+        summary: >
+          Professor in computer science–related courses.
+
+      - company: Universidad Peruana de Ciencias Aplicadas
+        position: Associate Professor
+        location: Monterrico, Lima, Peru
+        start_date: 2018-03-01
+        end_date: 2019-07-31
+        summary: >
+          Associate Professor in computer science and data analytics.
+
+      - company: Esan University
+        position: Professor
+        location: Monterrico, Lima, Peru
+        start_date: 2018-02-01
+        end_date: 2018-12-15
+        summary: >
+          Professor in computer science and related disciplines.
+
+    Projects:
+      - name: Generative AI as a tool for building advanced data analytic solutions for students without programming skills
+        summary: "Grant, Institute for the Future of Education (Monterrey, MX), 2024-01 to 2025-07. GRANT_NUMBER: 419283."
+
+      - name: Digital Media Observatory
+        summary: "Grant, Vice-Rectorate for Research at Tecnologico de Monterrey (Monterrey, MX), 2023-01 to 2025-12. URL: https://omd.tec.mx/"
+
+      - name: "BEENET: The solution to the problem of offer and seek employment"
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2019-11 to 2021-10. GRANT_NUMBER: 2019/02455-1. URL: https://bv.fapesp.br/pt/auxilios/105710/beenet-a-solucao-para-o-problema-da-oferta-e-procura-de-emprego/"
+
+      - name: An Intelligent System Proposal for Identifying Business Opportunities
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2018-11 to 2019-07. GRANT_NUMBER: 2017/22472-2. URL: https://bv.fapesp.br/pt/auxilios/101839/desenvolvimento-de-um-sistema-inteligente-para-identificacao-de-oportunidades-de-negocios/"
+
+      - name: Mining User Behavior in Location-Based Social Networks
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2014-03 to 2017-09. GRANT_NUMBER: 2013/12191-5. URL: https://bv.fapesp.br/pt/bolsas/150470/mineracao-do-comportamento-de-usuarios-em-redes-sociais-baseadas-em-localizacao/"
+
+      - name: Link Prediction in Social Networks using multiple information sources
+        summary: "Grant, National Council for Scientific and Technological Development (Brasilia, BR), 2013-08 to 2014-02. GRANT_NUMBER: 151836/2013-2."
+
+      - name: Link prediction in complex networks using community structure information
+        summary: "Grant, National Council for Scientific and Technological Development (Brasilia, BR), 2011-08 to 2013-03. GRANT_NUMBER: 137353/2011-1."
 
     Publications:
-      - title: "Skill-based employment taxonomy"
+      - title: Advancing Multi-step Mathematical Reasoning in Large Language Models Through Multi-layered Self-reflection with Auto-prompting
+        authors:
+          - "André de Souza Loureiro"
+          - "Jorge Valverde-Rebaza"
+          - "Julieta Noguez"
+          - "David Escarcega"
+          - "Ricardo Marcacini"
+        publisher: Book chapter
+        releaseDate: "2026"
+        url: https://doi.org/10.1007/978-3-032-06078-5_12
+
+      - title: GENDER-BASED COMPARISON OF EVALUATIONS USING VISUO-HAPTIC SIMULATORS AND CHATGPT ACTIVITIES VERSUS TRADITIONAL LEARNING MODELS
+        authors:
+          - "Rosa Maria Guadalupe Garcia-Castelan"
+          - "Andrés González-Nucamendi"
+          - "Luis Jaime Neri-Vitela"
+          - "Victor Francisco Robledo-Rella"
+          - "Juana Julieta Noguez-Monroy"
+          - "Jorge Carlos Valverde-Rebaza"
+        publisher: Conference paper
+        releaseDate: 2025-11
+        url: https://doi.org/10.21125/iceri.2025.0682
+
+      - title: "LLM4Gov: A Privacy-Preserving Approach to Teacher-Student Fine-Tuning of Distilled LLMs for the Public Sector"
+        authors:
+          - "Ricardo M. Marcacini"
+          - "Jorge Carlos Valverde-Rebaza"
+          - "Marcelo A. S. Turine"
+          - "Brucce Neves Santos"
+          - "Silvio Levcovitz"
+          - "Solange O. Rezende"
+        publisher: Anais do XII Latin American Symposium on Digital Government (LASDiGov 2025)
+        releaseDate: 2025-07-20
+        url: https://doi.org/10.5753/lasdigov.2025.9471
+
+      - title: Can We Trust AI Chatbots to Teach University Physics? A Performance Comparison of AI Chatbots
+        authors:
+          - "Víctor Robledo-Rella"
+          - "Andrés Gonzalez-Nucamendi"
+          - "Luis Neri"
+          - "Rosa M.G. García-Castelán"
+          - "Julieta Noguez"
+          - "Jorge Valverde-Rebaza"
+        publisher: 2025 IEEE Global Engineering Education Conference (EDUCON)
+        releaseDate: 2025-04-22
+        url: https://doi.org/10.1109/educon62633.2025.11016485
+
+      - title: Skill-based employment taxonomy in the global IT industry 5.0
         authors:
           - "Jorge Valverde-Rebaza"
-        date: 2025
-        url: "https://doi.org/10.3389/feduc.2025.1418184"
+          - "Fabiana Rodrigues de Góes"
+          - "Julieta Noguez"
+          - "Nathalia C. Da Silva"
+        publisher: Frontiers in Education
+        releaseDate: 2025-04-02
+        url: https://doi.org/10.3389/feduc.2025.1418184
+
+      - title: A comparative study of a new challenge-based learning model for engineering majors
+        authors:
+          - "V. Robledo-Rella"
+          - "L. Neri"
+          - "R. M. G. García-Castelán"
+          - "A. Gonzalez-Nucamendi"
+          - "J. Valverde-Rebaza"
+          - "J. Noguez"
+        publisher: Frontiers in Education
+        releaseDate: 2025-03-07
+        url: https://doi.org/10.3389/feduc.2025.1545071
+
+      - title: "A FACTOR ANALYSIS OF STUDENT MOTIVATIONS OF THE TECNOLOGICO DE MONTERREY LEADERS OF TOMORROW SCHOLARSHIP"
+        authors:
+          - "Andres Gonzalez-Nucamendi"
+          - "Luis Jaime Neri-Vitela"
+          - "Víctor Robledo-Rella"
+          - "Rosa María Guadalupe García-Castelán"
+          - "Julieta Noguez"
+          - "Jorge Carlos Valverde-Rebaza"
+        publisher: Conference paper
+        releaseDate: 2024-11
+        url: https://doi.org/10.21125/iceri.2024.0752
+
+      - title: "Impact of Demographic and Co-Curricular Factors on the Academic Success of Students from Low-Income Families: A Scholarship Program Study"
+        authors:
+          - "Andres Gonzalez-Nucamendi"
+          - "Luis Neri"
+          - "Rosa M.G. García-Castelán"
+          - "Víctor Robledo-Rella"
+          - "Jorge Valverde-Rebaza"
+          - "Julieta Noguez"
+        publisher: 2024 IEEE Frontiers in Education Conference (FIE)
+        releaseDate: 2024-10-13
+        url: https://doi.org/10.1109/fie61694.2024.10893057
+
+      - title: "Exploring Supervised and Unsupervised Learning Techniques to Detect Ground-Glass Opacities in CT Images for COVID-19"
+        authors:
+          - "Sharon Quispe"
+          - "Ingrid Arellano"
+          - "Pedro Shiguihara"
+          - "Jorge Valverde-Rebaza"
+        publisher: 2024 IEEE ANDESCON
+        releaseDate: 2024-09-11
+        url: https://doi.org/10.1109/andescon61840.2024.10755619
+
+      - title: "Advanced large language models and visualization tools for data analytics learning"
+        authors:
+          - "Jorge Valverde-Rebaza"
+          - "Aram González"
+          - "Octavio Navarro-Hinojosa"
+          - "Julieta Noguez"
+        publisher: Frontiers in Education
+        releaseDate: 2024-08-08
+        url: https://doi.org/10.3389/feduc.2024.1418006
+
+      - title: "Integrating YOLO and 3D U-Net for COVID-19 Diagnosis on Chest CT Scans"
+        authors:
+          - "Jorge Valverde-Rebaza"
+          - "Guilherme R. Andreis"
+          - "Pedro Shiguihara"
+          - "Sebastián Paucar"
+          - "Leandro Y. Mano"
+          - "Fabiana Góes"
+          - "Julieta Noguez"
+          - "Nathalia C. Da Silva"
+        publisher: 2024 IEEE 37th International Symposium on Computer-Based Medical Systems (CBMS)
+        releaseDate: 2024-06-26
+        url: https://doi.org/10.1109/cbms61543.2024.00011
+
+      - title: "Information Management and Big Data"
+        authors:
+          - "Jorge C. Valverde-Rebaza"
+        publisher: Springer International Publishing
+        releaseDate: "2022"
+        url: https://doi.org/10.1007/978-3-031-04447-2
+
+      - title: "Information Management and Big Data"
+        authors:
+          - "Jorge C. Valverde-Rebaza"
+        publisher: Springer International Publishing
+        releaseDate: "2021"
+        url: https://doi.org/10.1007/978-3-030-76228-5
+
+      - title: "Information Management and Big Data"
+        authors:
+          - "Jorge C. Valverde-Rebaza"
+        publisher: Springer International Publishing
+        releaseDate: "2020"
+        url: https://doi.org/10.1007/978-3-030-46140-9
+
+      - title: "Exploiting Geographical Data to Improve Recommender Systems for Business Opportunities in Urban Areas"
+        authors:
+          - "Vinícius Ferreira"
+          - "Alan Valejo"
+          - "Paola Valdivia"
+          - "Jorge C. Valverde-Rebaza"
+        publisher: 2019 8th Brazilian Conference on Intelligent Systems (BRACIS)
+        releaseDate: 2019-10
+        url: https://doi.org/10.1109/bracis.2019.00105
+
+      - title: "ANEW for Spanish Twitter Sentiment Analysis Using Instance-Based Multi-label Learning Algorithms"
+        authors:
+          - "Rodrigo Palomino"
+          - "Carlos Meléndez"
+          - "David Mauricio"
+          - "Jorge Valverde-Rebaza"
+        publisher: Communications in Computer and Information Science
+        releaseDate: 2019-02
+        url: https://doi.org/10.1007/978-3-030-11680-4_6
+
+      - title: "Job recommendation based on job seeker skills: An empirical study"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "Puma, R."
+          - "Bustios, P."
+          - "Silva, N.C."
+        publisher: CEUR Workshop Proceedings
+        releaseDate: "2018"
+
+      - title: "The role of location and social strength for friendship prediction in location-based social networks"
+        authors:
+          - "Valverde-Rebaza, J.C."
+          - "Roche, M."
+          - "Poncelet, P."
+          - "Lopes, A.D.A."
+        publisher: Information Processing and Management
+        releaseDate: "2018"
+        url: https://doi.org/10.1016/j.ipm.2018.02.004
+
+      - title: "A survey of the applications of Bayesian networks in agriculture"
+        authors:
+          - "Drury, B."
+          - "Valverde-Rebaza, J."
+          - "Moura, M.-F."
+          - "de Andrade Lopes, A."
+        publisher: Engineering Applications of Artificial Intelligence
+        releaseDate: "2017"
+        url: https://doi.org/10.1016/j.engappai.2017.07.003
+
+      - title: "Exploiting social and mobility patterns for friendship prediction in location-based social networks"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "Roche, M."
+          - "Poncelet, P."
+          - "De Andrade Lopes, A."
+        publisher: Proceedings - International Conference on Pattern Recognition
+        releaseDate: "2017"
+        url: https://doi.org/10.1109/ICPR.2016.7900016
+
+      - title: "Network sampling based on centrality measures for relational classification"
+        authors:
+          - "Berton, L."
+          - "Vega-Oliveros, D.A."
+          - "Valverde-Rebaza, J."
+          - "da Silva, A.T."
+          - "Lopes, A.A."
+        publisher: Communications in Computer and Information Science
+        releaseDate: "2017"
+
+      - title: "RGCLI: Robust Graph that Considers Labeled Instances for Semi-Supervised Learning"
+        authors:
+          - "Berton, L."
+          - "de Paulo Faleiros, T."
+          - "Valejo, A."
+          - "Valverde-Rebaza, J."
+          - "de Andrade Lopes, A."
+        publisher: Neurocomputing
+        releaseDate: "2017"
+        url: https://doi.org/10.1016/j.neucom.2016.11.053
+
+      - title: "The impact of network sampling on relational classification"
+        authors:
+          - "Berton, L."
+          - "Vega-Oliveros, D.A."
+          - "Valverde-Rebaza, J."
+          - "Da Silva, A.T."
+          - "De Andrade Lopes, A."
+        publisher: CEUR Workshop Proceedings
+        releaseDate: "2016"
+
+      - title: "A Naïve Bayes model based on overlapping groups for link prediction in online social networks"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "Valejo, A."
+          - "Berton, L."
+          - "De Paulo Faleiros, T."
+          - "De Andrade Lopes, A."
+        publisher: Proceedings of the ACM Symposium on Applied Computing
+        releaseDate: "2015"
+        url: https://doi.org/10.1145/2695664.2695719
+
+      - title: "Causation generalization through the identification of equivalent nodes in causal sparse graphs constructed from text using node similarity strategies"
+        authors:
+          - "Drury, B."
+          - "Valverde-Rebaza, J."
+          - "De Andrade Lopes, A."
+        publisher: CEUR Workshop Proceedings
+        releaseDate: "2015"
+
+      - title: "Lazy Multi-label Learning Algorithms Based on Mutuality Strategies"
+        authors:
+          - "Cherman, E.A."
+          - "Spolaôr, N."
+          - "Valverde-Rebaza, J."
+          - "Monard, M.C."
+        publisher: Journal of Intelligent and Robotic Systems
+        releaseDate: "2015"
+        url: https://doi.org/10.1007/s10846-014-0144-4
+
+      - title: "Link prediction in graph construction for supervised and semi-supervised learning"
+        authors:
+          - "Berton, L."
+          - "Valverde-Rebaza, J."
+          - "De Andrade Lopes, A."
+        publisher: Proceedings of the International Joint Conference on Neural Networks
+        releaseDate: "2015"
+        url: https://doi.org/10.1109/IJCNN.2015.7280543
+
+      - title: "A multilevel approach for overlapping community detection"
+        authors:
+          - "Valejo, A."
+          - "Valverde-Rebaza, J."
+          - "De Andrade Lopes, A."
+        publisher: 2014 Brazilian Conference on Intelligent Systems (BRACIS)
+        releaseDate: "2014"
+        url: https://doi.org/10.1109/BRACIS.2014.76
+
+      - title: "An Open Source Tool for Crowd-Sourcing the Manual Annotation of Texts"
+        authors:
+          - "Jorge C. Valverde-Rebaza"
+        publisher: Lecture Notes in Computer Science
+        releaseDate: "2014"
+        url: https://doi.org/10.1007/978-3-319-09761-9_31
+
+      - title: "Identification of related Brazilian Portuguese verb groups using overlapping community detection"
+        authors:
+          - "Valejo, A."
+          - "Drury, B."
+          - "Valverde-Rebaza, J."
+          - "Lopes, A.A."
+        publisher: Lecture Notes in Computer Science
+        releaseDate: "2014"
+        url: https://doi.org/10.1007/978-3-319-09761-9
+
+      - title: "Link prediction in online social networks using group information"
+        authors:
+          - "Valverde-Rebaza, J.C."
+          - "De Andrade Lopes, A."
+        publisher: Lecture Notes in Computer Science
+        releaseDate: "2014"
+        url: https://doi.org/10.1007/978-3-319-09153-2_3
+
+      - title: "Multilevel refinement based on neighborhood similarity"
+        authors:
+          - "Valejo, A."
+          - "Valverde-Rebaza, J."
+          - "Drury, B."
+          - "De Andrade Lopes, A."
+        publisher: ACM International Conference Proceeding Series
+        releaseDate: "2014"
+        url: https://doi.org/10.1145/2628194.262822/
+
+      - title: "Music genre classification using traditional and relational approaches"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "Soriano, A."
+          - "Berton, L."
+          - "De Oliveira, M.C.F."
+          - "De Andrade Lopes, A."
+        publisher: 2014 Brazilian Conference on Intelligent Systems (BRACIS)
+        releaseDate: "2014"
+        url: https://doi.org/10.1109/BRACIS.2014.54
+
+      - title: "Exploiting behaviors of communities of twitter users for link prediction"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "De Andrade Lopes, A."
+        publisher: Social Network Analysis and Mining
+        releaseDate: "2013"
+        url: https://doi.org/10.1007/s13278-013-0142-8
+
+      - title: "Link prediction in complex networks based on cluster information"
+        authors:
+          - "Valverde-Rebaza, J.C."
+          - "De Andrade Lopes, A."
+        publisher: Lecture Notes in Computer Science
+        releaseDate: "2012"
+
+      - title: "Multiple kernel learning based on local and nonlinear combinations"
+        authors:
+          - "Calderón-Niquín, M."
+          - "Valverde-Rebaza, J."
+        publisher: 38th Latin America Conference on Informatics (CLEI 2012)
+        releaseDate: "2012"
+        url: https://doi.org/10.1109/CLEI.2012.6427179
+
+      - title: "Structural link prediction using community information on Twitter"
+        authors:
+          - "Valverde-Rebaza, J."
+          - "De Andrade Lopes, A."
+        publisher: 2012 International Conference on Computational Aspects of Social Networks (CASoN)
+        releaseDate: "2012"
+        url: https://doi.org/10.1109/CASoN.2012.6412391
 
     Service:
-      - highlights:
-          - "Reviewer for academic journals."
+      - label: Reviewer
+        details: "Computing (journal), review activity in 2021."
+
+      - label: Reviewer
+        details: "Knowledge-Based Systems (journal), review activity in 2025."
+
+      - label: Reviewer
+        details: "Online Social Networks and Media (journal), review activity in 2024–2025."
