@@ -119,44 +119,31 @@ cv:
         summary: >
           Professor in computer science and related disciplines.
 
-    Grants:
-      - bullet: >
-          **Generative AI as a tool for building advanced data analytic solutions for students without programming skills**
-          Grant, Institute for the Future of Education (Monterrey, MX), 2024-01 to 2025-07.
-          GRANT_NUMBER: 419283.
+    Projects:
+      - name: Generative AI as a tool for building advanced data analytic solutions for students without programming skills
+        summary: "Grant, Institute for the Future of Education (Monterrey, MX), 2024-01 to 2025-07. GRANT_NUMBER: 419283."
 
-      - bullet: >
-          **Digital Media Observatory**
-          Grant, Vice-Rectorate for Research at Tecnológico de Monterrey (Monterrey, MX),
-          2023-01 to 2025-12. URL: https://omd.tec.mx/.
+      - name: Digital Media Observatory
+        summary: "Grant, Vice-Rectorate for Research at Tecnologico de Monterrey (Monterrey, MX), 2023-01 to 2025-12."
+        url: https://omd.tec.mx/
 
-      - bullet: >
-          **"BEENET: The solution to the problem of offer and seek employment"**
-          Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
-          2019-11 to 2021-10. GRANT_NUMBER: 2019/02455-1.
-          URL: https://bv.fapesp.br/pt/auxilios/105710/beenet-a-solucao-para-o-problema-da-oferta-e-procura-de-emprego/.
+      - name: "BEENET: The solution to the problem of offer and seek employment"
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2019-11 to 2021-10. GRANT_NUMBER: 2019/02455-1."
+        url: https://bv.fapesp.br/pt/auxilios/105710/beenet-a-solucao-para-o-problema-da-oferta-e-procura-de-emprego/
 
-      - bullet: >
-          **An Intelligent System Proposal for Identifying Business Opportunities**
-          Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
-          2018-11 to 2019-07. GRANT_NUMBER: 2017/22472-2.
-          URL: https://bv.fapesp.br/pt/auxilios/101839/desenvolvimento-de-um-sistema-inteligente-para-identificacao-de-oportunidades-de-negocios/.
+      - name: An Intelligent System Proposal for Identifying Business Opportunities
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2018-11 to 2019-07. GRANT_NUMBER: 2017/22472-2."
+        url: https://bv.fapesp.br/pt/auxilios/101839/desenvolvimento-de-um-sistema-inteligente-para-identificacao-de-oportunidades-de-negocios/
 
-      - bullet: >
-          **Mining User Behavior in Location-Based Social Networks**
-          Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
-          2014-03 to 2017-09. GRANT_NUMBER: 2013/12191-5.
-          URL: https://bv.fapesp.br/pt/bolsas/150470/mineracao-do-comportamento-de-usuarios-em-redes-sociais-baseadas-em-localizacao/.
+      - name: Mining User Behavior in Location-Based Social Networks
+        summary: "Grant, Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (Sao Paulo, BR), 2014-03 to 2017-09. GRANT_NUMBER: 2013/12191-5."
+        url: https://bv.fapesp.br/pt/bolsas/150470/mineracao-do-comportamento-de-usuarios-em-redes-sociais-baseadas-em-localizacao/
 
-      - bullet: >
-          **Link Prediction in Social Networks using multiple information sources**
-          Grant, National Council for Scientific and Technological Development (Brasília, BR),
-          2013-08 to 2014-02. GRANT_NUMBER: 151836/2013-2.
+      - name: Link Prediction in Social Networks using multiple information sources
+        summary: "Grant, National Council for Scientific and Technological Development (Brasilia, BR), 2013-08 to 2014-02. GRANT_NUMBER: 151836/2013-2."
 
-      - bullet: >
-          **Link prediction in complex networks using community structure information**
-          Grant, National Council for Scientific and Technological Development (Brasília, BR),
-          2011-08 to 2013-03. GRANT_NUMBER: 137353/2011-1.
+      - name: Link prediction in complex networks using community structure information
+        summary: "Grant, National Council for Scientific and Technological Development (Brasilia, BR), 2011-08 to 2013-03. GRANT_NUMBER: 137353/2011-1."
 
     Publications:
       - title: Advancing Multi-step Mathematical Reasoning in Large Language Models Through Multi-layered Self-reflection with Auto-prompting

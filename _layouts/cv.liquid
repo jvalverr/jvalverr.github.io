@@ -139,6 +139,18 @@ layout: default
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
+          {% assign display_section_title = section_title %}
+
+          {%- comment -%}
+            Keep the on-page label as "Grants" when we map grants into RenderCV-supported
+            "Projects" section entries.
+          {%- endcomment -%}
+          {% if section_title == 'Projects' %}
+            {% assign first_entry = section_entries[0] %}
+            {% if first_entry and first_entry.summary and first_entry.summary contains 'GRANT_NUMBER' %}
+              {% assign display_section_title = 'Grants' %}
+            {% endif %}
+          {% endif %}
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
@@ -147,7 +159,7 @@ layout: default
 
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            <h3 class="card-title font-weight-medium">{{ display_section_title }}</h3>
             <div>
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
