@@ -7,7 +7,7 @@ He holds a **Ph.D. in Computer Science and Computational Mathematics (2017)** an
 Currently, he is a **Professor at the School of Engineering and Sciences at Tecnológico de Monterrey** and has collaborated with academic institutions and research groups across **Peru, Brazil, and Mexico**.
 
 Website: http://jvalverr.github.io  
-ORCID: https://orcid.org/0000-0001-8664-9692  
+ORCID: https://orcid.org/0000-0001-8664-9692
 
 ---
 
@@ -89,9 +89,9 @@ Dr. Valverde-Rebaza has authored and co-authored numerous publications in journa
 
 His work has appeared in venues such as:
 
-- *Frontiers in Education*
-- *Information Processing & Management*
-- *Neurocomputing*
+- _Frontiers in Education_
+- _Information Processing & Management_
+- _Neurocomputing_
 - IEEE conferences
 - Springer book series
 

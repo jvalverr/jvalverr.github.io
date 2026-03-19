@@ -1,9 +1,9 @@
 cv:
   name: Jorge Carlos Valverde-Rebaza
   label: Professor of Computer Science
-  email: ""          
+  email: ""
   location: "Mexico City, MX"
-  image: ""         
+  image: ""
   summary: >
     Professor and researcher in computer science, data analytics, and artificial intelligence,
     with experience in academia and industry across Mexico, Brazil, Peru, and Europe.
@@ -21,7 +21,6 @@ cv:
     countryCode: MX
 
   sections:
-
     Education:
       - institution: Consejo Nacional de Ciencia y Tecnología e Innovación Tecnológica (CONCYTEC)
         location: Lima, Peru
@@ -121,40 +120,40 @@ cv:
           Professor in computer science and related disciplines.
 
     Grants:
-      - bullet: > 
+      - bullet: >
           **Generative AI as a tool for building advanced data analytic solutions for students without programming skills**
           Grant, Institute for the Future of Education (Monterrey, MX), 2024-01 to 2025-07.
           GRANT_NUMBER: 419283.
 
-      - bullet: > 
+      - bullet: >
           **Digital Media Observatory**
           Grant, Vice-Rectorate for Research at Tecnológico de Monterrey (Monterrey, MX),
           2023-01 to 2025-12. URL: https://omd.tec.mx/.
 
-      - bullet: >   
+      - bullet: >
           **"BEENET: The solution to the problem of offer and seek employment"**
           Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
           2019-11 to 2021-10. GRANT_NUMBER: 2019/02455-1.
           URL: https://bv.fapesp.br/pt/auxilios/105710/beenet-a-solucao-para-o-problema-da-oferta-e-procura-de-emprego/.
 
-      - bullet: > 
+      - bullet: >
           **An Intelligent System Proposal for Identifying Business Opportunities**
           Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
           2018-11 to 2019-07. GRANT_NUMBER: 2017/22472-2.
           URL: https://bv.fapesp.br/pt/auxilios/101839/desenvolvimento-de-um-sistema-inteligente-para-identificacao-de-oportunidades-de-negocios/.
 
-      - bullet: > 
+      - bullet: >
           **Mining User Behavior in Location-Based Social Networks**
           Grant, Fundação de Amparo à Pesquisa do Estado de São Paulo (São Paulo, BR),
           2014-03 to 2017-09. GRANT_NUMBER: 2013/12191-5.
           URL: https://bv.fapesp.br/pt/bolsas/150470/mineracao-do-comportamento-de-usuarios-em-redes-sociais-baseadas-em-localizacao/.
 
-      - bullet: > 
+      - bullet: >
           **Link Prediction in Social Networks using multiple information sources**
           Grant, National Council for Scientific and Technological Development (Brasília, BR),
           2013-08 to 2014-02. GRANT_NUMBER: 151836/2013-2.
 
-      - bullet: > 
+      - bullet: >
           **Link prediction in complex networks using community structure information**
           Grant, National Council for Scientific and Technological Development (Brasília, BR),
           2011-08 to 2013-03. GRANT_NUMBER: 137353/2011-1.
@@ -357,7 +356,7 @@ cv:
         releaseDate: 2017
         url: https://doi.org/10.1016/j.engappai.2017.07.003
 
-      - title: "Exploiting social and mobility patterns for friendship prediction in location-based social networks"      
+      - title: "Exploiting social and mobility patterns for friendship prediction in location-based social networks"
         authors:
           - "Valverde-Rebaza, J."
           - "Roche, M."
@@ -480,7 +479,7 @@ cv:
         releaseDate: 2014
         url: https://doi.org/10.1145/2628194.262822/
 
-      - title: "Music genre classification using traditional and relational approaches"       
+      - title: "Music genre classification using traditional and relational approaches"
         authors:
           - "Valverde-Rebaza, J."
           - "Soriano, A."
@@ -514,7 +513,7 @@ cv:
         releaseDate: 2012
         url: https://doi.org/10.1109/CLEI.2012.6427179
 
-      - title: "Structural link prediction using community information on Twitter"                        
+      - title: "Structural link prediction using community information on Twitter"
         authors:
           - "Valverde-Rebaza, J."
           - "De Andrade Lopes, A."
