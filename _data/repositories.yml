@@ -4,10 +4,17 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jvalverr/LPsource
+  - jvalverr/data-analytics-education
+  - visibilia/IA-for-fully-automatic-COVID-19-detection
+  - jvalverr/jvalverr.github.io
+  - jvalverr/sentimex-llm-benchmark
+  - jvalverr/beet-it-jobs-taxonomy
+  - jvalverr/podcast_genai
+  - jvalverr/deepwalk
+  - jvalverr/Geo-LPsource
+  - jvalverr/MAC0460
+  - jvalverr/ovLinkCom
+  - jvalverr/LPgraph
+  - jvalverr/hlc
+  
