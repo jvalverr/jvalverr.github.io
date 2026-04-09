@@ -5,6 +5,7 @@ date: 2025-03-15 10:00:00
 description: Production success in ML depends not on the latest architecture, but on reusable patterns that make systems endure.
 tags: machine-learning mlops ai-engineering
 categories: ai
+published: true
 ---
 
 Most ML conversations still revolve around models. But production success depends on something else: design patterns.
