@@ -110,6 +110,83 @@ ninja.data = [{
             window.location.href = "/blog/2026/cubic-millimeter-brain-ai/";
           
         },
+      },{id: "post-llm-governance-from-data-to-models-to-decision-infrastructure",
+        
+          title: "LLM Governance — From Data to Models to Decision Infrastructure",
+        
+        description: "Why governing LLMs requires more than classic AI frameworks, and how LLM4Gov shows a responsible path forward for the public sector.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/llm-governance-llm4gov/";
+          
+        },
+      },{id: "post-genai-for-evidence-based-entrepreneurship-viii-eiie-at-innovation-fest-2025",
+        
+          title: "GenAI for Evidence-Based Entrepreneurship — VIII EIIE at Innovation Fest 2025",
+        
+        description: "Reflections from the VIII International Research Meeting in Entrepreneurship, where AI, innovation, and responsible entrepreneurship converged in Guadalajara.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/eiie-innovation-fest-genai-entrepreneurship/";
+          
+        },
+      },{id: "post-méxico-ia-latam-is-no-longer-watching-the-ai-revolution-we-are-building-it",
+        
+          title: "México IA+ — LATAM Is No Longer Watching the AI Revolution, We Are...",
+        
+        description: "Reflections from México IA+ at Expo Santa Fe, where AI stopped being futurism and became national strategy.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/mexico-ia-plus-latam-ai-revolution/";
+          
+        },
+      },{id: "post-nlp-with-python-the-book-that-made-today-39-s-llms-possible",
+        
+          title: "NLP with Python — The Book That Made Today&#39;s LLMs Possible",
+        
+        description: "A timeless resource for understanding the NLP foundations behind modern language models, still essential for anyone starting in AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/nlp-python-bird-klein-loper/";
+          
+        },
+      },{id: "post-the-real-value-of-ai-is-not-the-model-it-39-s-the-ecosystem-around-it",
+        
+          title: "The Real Value of AI Is Not the Model — It&#39;s the Ecosystem...",
+        
+        description: "Why ROI in AI depends not on the algorithm, but on the full cycle of data, deployment, monitoring, and feedback.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ai-value-ecosystem-not-model/";
+          
+        },
+      },{id: "post-public-trust-in-ai-is-not-binary-it-depends-on-context",
+        
+          title: "Public Trust in AI Is Not Binary — It Depends on Context",
+        
+        description: "What a UK study on AI perception reveals about trust, regulation, and what it means for LATAM&#39;s own AI adoption journey.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/public-trust-ai-context-latam/";
+          
+        },
+      },{id: "post-introduction-to-ml-systems-a-blueprint-for-the-next-generation-of-ai-engineers",
+        
+          title: "Introduction to ML Systems — A Blueprint for the Next Generation of AI...",
+        
+        description: "A rare textbook that turns fragmented ML concepts into a coherent vision of what AI systems really are — not just models, but end-to-end architectures.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/intro-ml-systems-reddi/";
+          
+        },
       },{id: "post-why-ml-design-patterns-matter-more-than-models",
         
           title: "Why ML Design Patterns Matter More Than Models",
