@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
+      },{id: "post-why-ml-design-patterns-matter-more-than-models",
+        
+          title: "Why ML Design Patterns Matter More Than Models",
+        
+        description: "Production success in ML depends not on the latest architecture, but on reusable patterns that make systems endure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ml-design-patterns/";
+          
+        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
