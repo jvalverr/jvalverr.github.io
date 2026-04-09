@@ -55,6 +55,61 @@ ninja.data = [{
             window.location.href = "/blog/2026/2024-12-04-photo-gallery/";
           
         },
+      },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
+        
+          title: "LLMs para análisis de sentimiento político en redes sociales",
+        
+        description: "Cómo los LLMs superan a los modelos tradicionales para interpretar el lenguaje político en español en múltiples plataformas.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/llms-sentiment-analysis-politics/";
+          
+        },
+      },{id: "post-ai-is-already-reshaping-education-reflections-from-edunine-2026",
+        
+          title: "AI is Already Reshaping Education — Reflections from EDUNINE 2026",
+        
+        description: "Key takeaways from EDUNINE 2026 at Tecnológico de Monterrey, where AI, ethics, and education converged.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/edunine-2026-ai-education/";
+          
+        },
+      },{id: "post-data-mining-data-science-y-data-analytics-del-pipeline-kdd-a-la-era-llmops",
+        
+          title: "Data Mining, Data Science y Data Analytics — Del pipeline KDD a la...",
+        
+        description: "Por qué confundir estos tres conceptos genera fricción en proyectos reales, y cómo el marco KDD ayuda a ordenar roles, pipelines y expectativas.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/data-mining-science-analytics-kdd-llmops/";
+          
+        },
+      },{id: "post-generative-ai-for-evidence-based-entrepreneurship-reflections-from-viii-eiie",
+        
+          title: "Generative AI for Evidence-Based Entrepreneurship — Reflections from VIII EIIE",
+        
+        description: "Why early-stage ventures fail even when founders follow established frameworks, and how LLMs can help strengthen problem quantification and validation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/genai-evidence-based-entrepreneurship-eiie/";
+          
+        },
+      },{id: "post-a-cubic-millimeter-of-the-human-brain-what-it-tells-us-about-ai",
+        
+          title: "A Cubic Millimeter of the Human Brain — What It Tells Us About...",
+        
+        description: "A fragment of human cortex has been mapped in extraordinary detail. What does it mean for how we build AI systems?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cubic-millimeter-brain-ai/";
+          
+        },
       },{id: "post-why-ml-design-patterns-matter-more-than-models",
         
           title: "Why ML Design Patterns Matter More Than Models",
