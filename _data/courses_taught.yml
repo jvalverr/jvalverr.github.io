@@ -1,0 +1,47 @@
+# Courses and teaching activity by institution (shown on the Teaching page).
+# Optional per institution: logo: /assets/img/teaching/tec.png
+
+section_title: Cursos impartidos
+
+institutions:
+  - name: Tecnológico de Monterrey
+    period: "jul. 2020 - actualidad"
+    location: ""
+    summary: "Diseño y dirección de iniciativas académicas en IA, analítica de datos y sistemas inteligentes, vinculación con industria y gobierno."
+    courses:
+      - title: "IA, analítica de datos y sistemas inteligentes"
+        description: "Enfoque estratégico que conecta academia e industria con resultados medibles en salud, negocios, educación y gobierno."
+      - title: "Currículos avanzados de IA"
+        description: "Traducción de investigación de frontera en capacidades prácticas para profesionales y tomadores de decisión."
+      - title: "Gobernanza y adopción responsable de IA"
+        description: "Ética, alineación regulatoria y sostenibilidad en la implementación de IA."
+
+  - name: Impacta Tecnologia
+    period: "ene. 2020 - jun. 2020"
+    location: "San Pablo, Brasil"
+    courses:
+      - title: "Web Analytics"
+      - title: "Bases de datos"
+      - title: "Algoritmos"
+
+  - name: Universidad Peruana de Ciencias Aplicadas
+    period: "mar. 2018 - ago. 2019"
+    location: "Lima, Perú"
+    courses:
+      - title: "Machine Learning"
+        description: "Coordinación y docencia."
+      - title: "Algoritmos"
+      - title: "Estructuras de datos"
+      - title: "Bases de datos"
+    notes:
+      - "Supervisión de proyectos de titulación aplicando IA a negocios, salud e impacto social."
+
+  - name: Universidad ESAN
+    period: "mar. 2018 - feb. 2019"
+    location: "Provincia de Lima, Perú"
+    courses:
+      - title: "Web Analytics"
+      - title: "Analítica de datos"
+      - title: "Big Data"
+    notes:
+      - "Acompañamiento de proyectos de analítica aplicada con clientes de la industria."

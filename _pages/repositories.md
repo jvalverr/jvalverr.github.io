@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: A collection of my open-source projects and research code. ##Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true
 nav_order: 4
 ---
+
+<!-- Edit `_data/repositories.yml` to change `github_users` and `github_repos`. -->
 
 {% if site.data.repositories.github_users %}
 

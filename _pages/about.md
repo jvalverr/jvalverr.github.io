@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Jorge Valverde-Rebaza; J. Valverde-Rebaza; J.C. Valverde-Rebaza
 

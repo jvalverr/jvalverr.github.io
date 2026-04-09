@@ -61,7 +61,7 @@ layout: default
         {% assign cv = site.data.cv.cv %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.headline or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv.headline or cv.location or cv.email or cv.phone or cv.website or cv.linkedIn or cv.linkedin %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
@@ -81,6 +81,20 @@ layout: default
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+                </tr>
+              {% endif %}
+              {% assign li_display = cv.linkedIn | default: cv.linkedin %}
+              {% if li_display %}
+                {% if li_display contains '://' %}
+                  {% assign li_href = li_display %}
+                {% else %}
+                  {% assign li_href = 'https://' | append: li_display %}
+                {% endif %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>LinkedIn</b></td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    <a href="{{ li_href }}" target="_blank" rel="noopener noreferrer">{{ li_display }}</a>
+                  </td>
                 </tr>
               {% endif %}
               {% if cv.phone %}

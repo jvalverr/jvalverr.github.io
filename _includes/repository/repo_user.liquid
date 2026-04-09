@@ -23,12 +23,12 @@
     <img
       class="only-light w-100"
       alt="{{ include.username }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+      src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true&cache_seconds={{ site.github_readme_stats_cache_seconds | default: 86400 }}"
     >
     <img
       class="only-dark w-100"
       alt="{{ include.username }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
+      src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true&cache_seconds={{ site.github_readme_stats_cache_seconds | default: 86400 }}"
     >
   </a>
 </div>

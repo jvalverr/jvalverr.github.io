@@ -31,17 +31,19 @@ back_to_top: true # set to false to disable the back to top button
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# Higher value = fewer API calls to the public stats service (helps avoid broken images from rate limits).
+github_readme_stats_cache_seconds: 86400
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
+# External service URLs for repository page (stats/trophy cards are loaded as images from these hosts).
+# The default *.vercel.app endpoints are often paused (503 DEPLOYMENT_PAUSED) when limits are hit; mirrors may change.
+# Stable long-term: deploy your own (see CUSTOMIZE.md) or use stats-organization/github-readme-stats-action.
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+  github_readme_stats_url: https://github-readme-stats.shion.dev
+  github_profile_trophy_url: https://trophy.ryglcloud.net
 
 # -----------------------------------------------------------------------------
 # RSS Feed
