@@ -4,27 +4,27 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "A collection of my open-source projects and research code.",
           section: "Navigation",
           handler: () => {
@@ -38,8 +38,8 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          title: "Teaching",
+          description: "Courses and teaching activities.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -270,16 +270,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-web-analytics-data-analytics-amp-big-data",
+          title: 'Web Analytics, Data Analytics &amp;amp; Big Data',
+          description: "Courses in **web analytics**, **data analytics**, and **big data** for business and analytics programs. Guided students in applied analytics projects for industry clients.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/esan-2018-2019/";
+            },},{id: "teachings-web-analytics-databases-amp-algorithms",
+          title: 'Web Analytics, Databases &amp;amp; Algorithms',
+          description: "Undergraduate and professional courses covering web analytics, relational databases, and core algorithms.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/impacta-2020/";
+            },},{id: "teachings-ai-data-analytics-amp-intelligent-systems",
+          title: 'AI, Data Analytics &amp;amp; Intelligent Systems',
+          description: "Design and delivery of advanced curricula in artificial intelligence, data analytics, and intelligent systems for professionals and graduate audiences, connecting research with practice across sectors (health, business, education, public sector).",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/tec-monterrey-ai-data/";
+            },},{id: "teachings-machine-learning-algorithms-amp-data-structures",
+          title: 'Machine Learning, Algorithms &amp;amp; Data Structures',
+          description: "Coordinated and taught **machine learning** courses; taught **algorithms**, **data structures**, and **databases**. Supervised final-year projects applying AI to business, health, and social impact.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/upc-2018-2019/";
             },},{
         id: 'social-cv',
         title: 'CV',
