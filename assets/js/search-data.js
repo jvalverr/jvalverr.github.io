@@ -187,6 +187,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/intro-ml-systems-reddi/";
           
         },
+      },{id: "post-ai-roi-in-2025-agents-in-action-not-in-theory",
+        
+          title: "AI ROI in 2025 — Agents in Action, Not in Theory",
+        
+        description: "A Google study with 3,500+ executives shows AI agents are no longer prototypes — they are real ROI engines. What does this mean for LATAM?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ai-roi-2025-agents-latam/";
+          
+        },
       },{id: "post-why-ml-design-patterns-matter-more-than-models",
         
           title: "Why ML Design Patterns Matter More Than Models",
