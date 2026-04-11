@@ -11,7 +11,7 @@ images:
   photoswipe: true
   spotlight: true
   venobox: true
-hide:true
+
 published: false
 ---
 
