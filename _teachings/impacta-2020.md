@@ -11,4 +11,12 @@ location: São Paulo, Brazil
 course_id: impacta-2020
 ---
 
-Focused on practical skills for data-driven web measurement, SQL and data modeling, and algorithmic thinking for applications in industry.
+## Role
+
+**Professor** — undergraduate and professional courses at Impacta Tecnologia, São Paulo.
+
+## Teaching focus
+
+- Delivered courses in **web analytics**, **databases**, and **algorithms**.
+
+Coursework emphasized **practical skills** for data-driven web measurement, **SQL** and data modeling, and **algorithmic thinking** for applications in industry.

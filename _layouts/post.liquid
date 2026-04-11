@@ -17,20 +17,25 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Created on {{ page.date | date: '%B %d, %Y' }}
+      {% if url_beginning == '/blog/' %}
+        Created on {{ page.date | date: '%B %d, ' }}<a href="{{ year | prepend: '/blog/' | relative_url }}">{{ year }}</a>
+      {% else %}
+        Created on {{ page.date | date: '%B %d, %Y' }}
+      {% endif %}
       {% if page.author %}by {{ page.author }}{% endif %}
       {% assign last_date = page.last_modified_at | default: page.last_updated %}
       {% if last_date %}, last updated on {{ last_date | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
+    {% if url_beginning != '/blog/' or tags != '' or categories != '' %}
     <p class="post-tags">
-      {% if url_beginning == '/blog/' %}
-        <a href="{{ year | prepend: '/blog/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-      {% else %}
+      {% if url_beginning != '/blog/' %}
         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
       {% endif %}
       {% if tags != '' %}
-        &nbsp; &middot; &nbsp;
+        {% if url_beginning != '/blog/' %}
+          &nbsp; &middot; &nbsp;
+        {% endif %}
         {% for tag in page.tags %}
           {% if url_beginning == '/blog/' %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
@@ -44,7 +49,9 @@ layout: default
       {% endif %}
 
       {% if categories != '' %}
-        &nbsp; &middot; &nbsp;
+        {% if tags != '' or url_beginning != '/blog/' %}
+          &nbsp; &middot; &nbsp;
+        {% endif %}
         {% for category in page.categories %}
           {% if url_beginning == '/blog/' %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}</a>
@@ -57,6 +64,7 @@ layout: default
         {% endfor %}
       {% endif %}
     </p>
+    {% endif %}
   </header>
 
   <article class="post-content">

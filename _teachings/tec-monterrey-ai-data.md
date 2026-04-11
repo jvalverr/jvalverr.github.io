@@ -11,4 +11,11 @@ location: Mexico
 course_id: tec-mty-ai-data
 ---
 
-Teaching and program design aligned with the School’s strategy on AI adoption, analytics, and responsible use of intelligent systems in real organizations.
+## Role
+
+**Assistant Professor** — design and delivery of advanced curricula in AI, data analytics, and intelligent systems for professionals and graduate audiences.
+
+## Teaching focus
+
+- **Design and teach** advanced AI curricula that translate cutting-edge research into practical capabilities for **professionals** and **decision-makers**.
+- Align **course and program design** with the School’s priorities on **AI adoption**, **analytics**, and **responsible use** of intelligent systems in real organizations.

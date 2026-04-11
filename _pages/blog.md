@@ -168,12 +168,12 @@ pagination:
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
-              {% unless forloop.last %}
+            {% unless forloop.last %}
                 &nbsp;
               {% endunless %}
               {% endfor %}
           {% endif %}
-    </p>
+      </p>
 
 {% if post.thumbnail %}
 

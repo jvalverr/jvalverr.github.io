@@ -33,7 +33,7 @@ layout: default
       {% endif %}
     </h1>
     {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
+      <div class="post-description">{{ page.description | markdownify }}</div>
     {% endif %}
   </header>
 
