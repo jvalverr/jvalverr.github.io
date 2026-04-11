@@ -99,6 +99,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/cubic-millimeter-brain-ai/";
           
         },
+      },{id: "post-why-ml-design-patterns-matter-more-than-models",
+        
+          title: "Why ML Design Patterns Matter More Than Models",
+        
+        description: "Production success in ML depends not on the latest architecture, but on reusable patterns that make systems endure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ml-design-patterns/";
+          
+        },
       },{id: "post-llm-governance-from-data-to-models-to-decision-infrastructure",
         
           title: "LLM Governance — From Data to Models to Decision Infrastructure",
@@ -187,15 +198,48 @@ ninja.data = [{
             window.location.href = "/blog/2025/ai-roi-2025-agents-latam/";
           
         },
-      },{id: "post-why-ml-design-patterns-matter-more-than-models",
+      },{id: "post-razonamiento-en-llms-de-cot-a-maps-y-gpt-5",
         
-          title: "Why ML Design Patterns Matter More Than Models",
+          title: "Razonamiento en LLMs: de CoT a MAPS y GPT-5",
         
-        description: "Production success in ML depends not on the latest architecture, but on reusable patterns that make systems endure.",
+        description: "Evolución del razonamiento en IA — desde Chain-of-Thought hasta MAPS — y qué implica hablar de razonamiento en GPT-5.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/ml-design-patterns/";
+            window.location.href = "/blog/2025/razonamiento-llms-cot-maps-gpt5/";
+          
+        },
+      },{id: "post-visualización-de-datos-y-sesgo-precisión-e-integridad-analítica",
+        
+          title: "Visualización de datos y sesgo: precisión e integridad analítica",
+        
+        description: "Cómo un dashboard impecable puede llevar a conclusiones erróneas, qué papel juegan las herramientas y la IA generativa, y por qué el análisis empieza al cuestionar el gráfico.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/visualizacion-datos-sesgo-integridad/";
+          
+        },
+      },{id: "post-llms-era-thoughts-on-nlp-research",
+        
+          title: "LLMs Era: Thoughts on NLP Research",
+        
+        description: "Reflections on how large language models reshape priorities, methods, and open questions in NLP research.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/llms-era-thoughts-nlp-research/";
+          
+        },
+      },{id: "post-innovate-or-die-bienvenida-a-la-newsletter-sobre-ia-ml-y-llms",
+        
+          title: "Innovate or Die: bienvenida a la newsletter sobre IA, ML y LLMs",
+        
+        description: "Bienvenida a la newsletter Innovate or Die; pilares de IA, ML y LLMs, qué promete a quien se suscribe y el cierre con innovar o perecer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/ia-ml-llms-pilares-era-transformadora/";
           
         },
       },{id: "books-the-godfather",
