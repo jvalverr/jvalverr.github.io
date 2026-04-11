@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2024-12-04-photo-gallery/";
-          
-        },
-      },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
+        },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
         
           title: "LLMs para análisis de sentimiento político en redes sociales",
         
