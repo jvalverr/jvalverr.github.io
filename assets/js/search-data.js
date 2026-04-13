@@ -331,13 +331,6 @@ ninja.data = [{
           window.open("/cv/", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6A%76%61%6C%76%65%72%72@%74%65%63.%6D%78", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
