@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Research, development and innovation projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "A collection of my open-source projects and research code.",
@@ -258,51 +265,66 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-proactive-cyber-defense-and-counter-disinformation",
+          title: 'Proactive Cyber Defense and Counter-Disinformation',
+          description: "Collaborating Researcher · 2026–2028",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/01_cyberdefense/";
+            },},{id: "projects-corelytics-generative-ai-and-intelligent-agents-for-supporting-data-analytics-projects",
+          title: 'Corelytics: Generative AI and Intelligent Agents for Supporting Data Analytics Projects',
+          description: "Principal Investigator · 2024–2027",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/02_corelytics/";
+            },},{id: "projects-digital-media-observatory-media-literacy-and-prevention-of-disinformation-operations",
+          title: 'Digital Media Observatory: Media Literacy and Prevention of Disinformation Operations',
+          description: "Collaborating Researcher · 2024–2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/03_digital_media_observatory/";
+            },},{id: "projects-test-ai-generative-ai-for-effective-software-test-automation",
+          title: 'Test-AI: Generative AI for Effective Software Test Automation',
+          description: "Collaborating Researcher · 2023–2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/04_test_ai/";
+            },},{id: "projects-llm4gov-privacy-preserving-fine-tuning-and-deployment-of-large-language-models-for-the-public-sector",
+          title: 'LLM4Gov: Privacy-Preserving Fine-Tuning and Deployment of Large Language Models for the Public Sector...',
+          description: "Collaborating Researcher · 2024–2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/05_llm4gov/";
+            },},{id: "projects-beenet-ai-based-intelligent-platform-for-employment-matching-and-human-resources",
+          title: 'BeeNet: AI-Based Intelligent Platform for Employment Matching and Human Resources',
+          description: "Principal Investigator · 2017–2023",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/06_beenet/";
+            },},{id: "projects-fadcil-ai-for-automatic-detection-of-covid-19-in-ct-scans",
+          title: 'FADCIL: AI for Automatic Detection of COVID-19 in CT Scans',
+          description: "Principal Investigator · 2020–2023",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/07_fadcil/";
+            },},{id: "projects-siion-an-intelligent-system-for-identifying-business-opportunities-using-geospatial-data",
+          title: 'SIION: An Intelligent System for Identifying Business Opportunities Using Geospatial Data',
+          description: "Principal Investigator · 2018–2019",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/08_siion/";
+            },},{id: "projects-social-network-analysis-and-mining",
+          title: 'Social Network Analysis and Mining',
+          description: "Collaborating Researcher · 2015–2018",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/09_social_network_analysis/";
+            },},{id: "projects-mining-user-behavior-in-location-based-social-networks",
+          title: 'Mining User Behavior in Location-Based Social Networks',
+          description: "Researcher (Ph.D. project) · 2014–2017",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_location_based_social_networks/";
+            },},{id: "projects-challenges-in-exploratory-visualization-of-multidimensional-data-paradigms-scalability-and-applications",
+          title: 'Challenges in Exploratory Visualization of Multidimensional Data: Paradigms, Scalability and Applications',
+          description: "Collaborating Researcher · 2012–2016",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_exploratory_visualization/";
+            },},{id: "projects-link-prediction-in-complex-networks-using-community-structure-information",
+          title: 'Link Prediction in Complex Networks Using Community Structure Information',
+          description: "Researcher (M.Sc. project) · 2011–2013",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_link_prediction/";
             },},{id: "teachings-web-analytics-data-analytics-amp-big-data",
           title: 'Web Analytics, Data Analytics &amp;amp; Big Data',
           description: "Courses in **web analytics**, **data analytics**, and **big data** for business and analytics programs. Guided students in applied analytics projects for industry clients.",
