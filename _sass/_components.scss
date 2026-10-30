@@ -139,6 +139,12 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    // Long project names read better at a smaller size
+    .card-title {
+      font-size: 1.25rem;
+      line-height: 1.35;
+    }
   }
 
   .col {
