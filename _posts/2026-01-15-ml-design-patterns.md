@@ -10,7 +10,7 @@ published: true
 
 Most ML conversations still revolve around models. But production success depends on something else: design patterns.
 
-*Machine Learning Design Patterns* isn't about chasing the latest architecture. It's about understanding the recurring challenges that emerge when ML systems move from notebooks to real-world environments, and how to address them systematically.
+_Machine Learning Design Patterns_ isn't about chasing the latest architecture. It's about understanding the recurring challenges that emerge when ML systems move from notebooks to real-world environments, and how to address them systematically.
 
 The book explores reusable patterns for:
 

@@ -4,6 +4,7 @@ title: Proactive Cyber Defense and Counter-Disinformation
 description: "Collaborating Researcher · 2026–2028"
 img: assets/img/projects/01_cyberdefense.svg
 importance: 1
+category: responsible-ai
 ---
 
 Research project developed by Tecnológico de Monterrey and the Cybersecurity Agency of El Salvador, focused on applied research in cyber defense and on countering disinformation operations.

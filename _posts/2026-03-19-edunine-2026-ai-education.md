@@ -6,7 +6,6 @@ description: Key takeaways from EDUNINE 2026 at Tecnológico de Monterrey, where
 tags: ai education engineering latam
 categories: events
 published: true
-
 ---
 
 I recently participated in **EDUNINE 2026** at Tecnológico de Monterrey Mexico City campus, where one idea became very clear: AI is no longer something we prepare for in education — it's already reshaping it.

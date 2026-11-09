@@ -4,6 +4,7 @@ title: Link Prediction in Complex Networks Using Community Structure Information
 description: "Researcher (M.Sc. project) · 2011–2013"
 img: assets/img/projects/12_link_prediction.svg
 importance: 12
+category: applied-ai
 related_publications: true
 ---
 

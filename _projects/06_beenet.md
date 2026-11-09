@@ -4,6 +4,7 @@ title: "BeeNet: AI-Based Intelligent Platform for Employment Matching and Human 
 description: "Principal Investigator · 2017–2023"
 img: assets/img/projects/06_beenet.svg
 importance: 6
+category: applied-ai
 related_publications: true
 ---
 

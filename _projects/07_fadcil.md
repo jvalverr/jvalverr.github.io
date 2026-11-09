@@ -4,6 +4,7 @@ title: "FADCIL: AI for Automatic Detection of COVID-19 in CT Scans"
 description: "Principal Investigator · 2020–2023"
 img: assets/img/projects/07_fadcil.svg
 importance: 7
+category: applied-ai
 related_publications: true
 ---
 

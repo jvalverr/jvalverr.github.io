@@ -4,6 +4,7 @@ title: Mining User Behavior in Location-Based Social Networks
 description: "Researcher (Ph.D. project) · 2014–2017"
 img: assets/img/projects/10_location_based_social_networks.svg
 importance: 10
+category: applied-ai
 related_publications: true
 ---
 

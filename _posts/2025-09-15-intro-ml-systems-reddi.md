@@ -7,7 +7,7 @@ tags: machine-learning ai education research
 categories: ai
 ---
 
-I rarely get impressed by a textbook, but *Introduction to Machine Learning Systems* by Vijay Janapa Reddi (2025) left me with that feeling.
+I rarely get impressed by a textbook, but _Introduction to Machine Learning Systems_ by Vijay Janapa Reddi (2025) left me with that feeling.
 
 ## What makes it different
 

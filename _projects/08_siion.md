@@ -4,6 +4,7 @@ title: "SIION: An Intelligent System for Identifying Business Opportunities Usin
 description: "Principal Investigator · 2018–2019"
 img: assets/img/projects/08_siion.svg
 importance: 8
+category: applied-ai
 related_publications: true
 ---
 

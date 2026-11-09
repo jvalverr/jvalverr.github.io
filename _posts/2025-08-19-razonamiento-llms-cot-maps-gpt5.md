@@ -9,11 +9,11 @@ categories: ai
 
 El razonamiento en la IA es fascinante y, al mismo tiempo, **lleno de trampas**. Durante décadas fue el “santo grial”: los sistemas resolvían tareas acotadas, pero no la flexibilidad con la que un humano enmarca problemas ambiguos o corrige su propio error.
 
-Con los **grandes modelos de lenguaje**, a partir sobre todo de 2022, algo cambió: técnicas de *prompting* simples empezaron a **despertar** capacidades de razonamiento que antes parecían inaccesibles.
+Con los **grandes modelos de lenguaje**, a partir sobre todo de 2022, algo cambió: técnicas de _prompting_ simples empezaron a **despertar** capacidades de razonamiento que antes parecían inaccesibles.
 
 ## De la cadena de pensamiento a árboles y grafos
 
-El *chain-of-thought* (**CoT**) fue el primer gran golpe de efecto: pedir pasos intermedios mejoró matemáticas, lógica y tareas de varias inferencias. Pero quedó claro que **si el primer paso falla, toda la cadena se vuelve frágil**.
+El _chain-of-thought_ (**CoT**) fue el primer gran golpe de efecto: pedir pasos intermedios mejoró matemáticas, lógica y tareas de varias inferencias. Pero quedó claro que **si el primer paso falla, toda la cadena se vuelve frágil**.
 
 Sobre esa base aparecieron, entre otras:
 
@@ -23,7 +23,7 @@ Sobre esa base aparecieron, entre otras:
 
 ## MAPS: reflexión en capas, no en una sola pasada
 
-**MAPS** (*Multi-Layered Self-Reflection with Auto-Prompting*) propone **varias capas iterativas de reflexión**. La idea clave: en cada vuelta el **prompt se adapta** al error detectado en la iteración anterior, en lugar de depender de una única ronda de autocorrección.
+**MAPS** (_Multi-Layered Self-Reflection with Auto-Prompting_) propone **varias capas iterativas de reflexión**. La idea clave: en cada vuelta el **prompt se adapta** al error detectado en la iteración anterior, en lugar de depender de una única ronda de autocorrección.
 
 En experimentos de **razonamiento matemático** (de operaciones simples a problemas más exigentes), MAPS ha mostrado ventajas consistentes frente a CoT aislado y frente a esquemas clásicos de autorreflexión. El trabajo asociado fue **aceptado en ECML PKDD 2025** — un foro de referencia en aprendizaje automático y descubrimiento de conocimiento en Europa.
 

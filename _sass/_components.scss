@@ -61,7 +61,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: inherit;
 
     p {
       display: inline-block;
@@ -120,6 +120,27 @@ ul.task-list input[type="checkbox"] {
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
+}
+
+// Call-to-action buttons in page content follow the theme color
+// (MDB hardcodes #4285f4 with !important, so the overrides need it too)
+
+.post article {
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:focus {
+    color: #fff !important;
+    background-color: var(--global-theme-color) !important;
+  }
+
+  .btn-outline-primary,
+  .btn-outline-primary:hover,
+  .btn-outline-primary:focus,
+  .btn-outline-primary:active {
+    color: var(--global-theme-color) !important;
+    background-color: transparent !important;
+    border-color: var(--global-theme-color) !important;
+  }
 }
 
 // Projects

@@ -4,6 +4,7 @@ title: "Digital Media Observatory: Media Literacy and Prevention of Disinformati
 description: "Collaborating Researcher · 2024–2026"
 img: assets/img/projects/03_digital_media_observatory.svg
 importance: 3
+category: responsible-ai
 related_publications: true
 ---
 

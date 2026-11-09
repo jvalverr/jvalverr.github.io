@@ -4,6 +4,7 @@ title: "Corelytics: Generative AI and Intelligent Agents for Supporting Data Ana
 description: "Principal Investigator · 2024–2027"
 img: assets/img/projects/02_corelytics.svg
 importance: 2
+category: llm-and-generative-ai
 related_publications: true
 ---
 

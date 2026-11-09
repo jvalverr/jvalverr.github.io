@@ -2,6 +2,10 @@
 layout: default
 permalink: /blog/
 title: Blog
+description: >-
+  Research-backed analysis on Applied AI, Large Language Models,
+  Generative AI, responsible adoption and real-world implementation
+  across Latin America.
 nav: true
 nav_order: 1
 pagination:

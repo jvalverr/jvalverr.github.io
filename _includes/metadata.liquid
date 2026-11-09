@@ -21,7 +21,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
-  {% if site.title == 'blank' %}
+  {% comment %} seo_title only affects <head> metadata; the on-screen name still follows site.title {% endcomment %}
+  {% if site.seo_title %}
+    {% capture title %}{{ site.seo_title }}{% endcapture %}
+  {% elsif site.title == 'blank' %}
     {% capture title %}{{ author_name }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
@@ -236,7 +239,7 @@
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
         "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}",
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks | jsonify }},
         {% endif %}

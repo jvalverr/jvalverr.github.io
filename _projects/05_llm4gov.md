@@ -4,6 +4,7 @@ title: "LLM4Gov: Privacy-Preserving Fine-Tuning and Deployment of Large Language
 description: "Collaborating Researcher · 2024–2026"
 img: assets/img/projects/05_llm4gov.svg
 importance: 5
+category: responsible-ai
 related_publications: true
 ---
 

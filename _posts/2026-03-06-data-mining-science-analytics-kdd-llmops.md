@@ -5,7 +5,7 @@ date: 2026-03-06 10:00:00
 description: Por qué confundir estos tres conceptos genera fricción en proyectos reales, y cómo el marco KDD ayuda a ordenar roles, pipelines y expectativas.
 tags: data-science machine-learning mlops llmops
 categories: research
-published : true
+published: true
 ---
 
 La confusión entre Data Mining, Data Science y Data Analytics no es solo semántica: se refleja en cómo se diseñan proyectos, cómo se definen entregables y cómo se construyen equipos.
