@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "Blog",
-          description: "",
+          description: "Research-backed analysis on Applied AI, Large Language Models, Generative AI, responsible adoption and real-world implementation across Latin America.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by categories in reversed chronological order.",
+          description: "Selected research by Jorge Valverde-Rebaza on Large Language Models, Generative AI, Natural Language Processing, responsible AI, data analytics and complex networks.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Research, development and innovation projects.",
+          description: "Applied AI case studies in Large Language Models, healthcare, education, enterprise systems and government, connecting rigorous research with real-world implementation in Latin America.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -50,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-advisory",
+          title: "Advisory",
+          description: "AI strategy and Generative AI advisory for organizations moving from experimentation to responsible, measurable and scalable implementation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/advisory/";
           },
         },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
         
@@ -346,11 +353,25 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/upc-2018-2019/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/cv/", "_blank");
+          window.open("https://www.linkedin.com/in/jvalverr", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jvalverr", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=-13ZsyQAAAAJ", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -360,11 +381,18 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0001-8664-9692", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-dblp',
+        title: 'DBLP',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jvalverr", "_blank");
+          window.open("https://dblp.org/pid/119/6669", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/cv/", "_blank");
         },
       },{
       id: 'light-theme',
