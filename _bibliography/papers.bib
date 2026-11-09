@@ -12,6 +12,7 @@
   year        = {2027},
   publisher   = {IEEE},
   note        = {Accepted, to be published},
+  abstract    = {Open crime data are widely used to analyze urban safety, yet they reflect reported incidents rather than the complete distribution of criminal activity. Differences in reporting behavior across urban areas can therefore introduce spatial distortions that affect subsequent analysis and decision-making. This work addresses this problem through a self-supervised urban representation learning framework that identifies regions with anomalous reporting patterns relative to functionally similar areas. The approach combines multi-scale reporting characteristics with a latent representation of urban regions and uses Neighbor Profile Divergence (NPD) to quantify departures from expected peer behavior. Experiments on large-scale crime data from Mexico City show that the learned representation is consistently more structured than linear, neural, and spatial baselines, while NPD remains stable across alternative neighborhood configurations. High-divergence regions exhibit spatially coherent patterns and often differ from comparable areas in both reporting structure and incident volume, supporting their use as candidates for further investigation.},
   selected    = {false}
 }
 
@@ -24,6 +25,7 @@
   year        = {2027},
   publisher   = {IEEE},
   note        = {Accepted, to be published},
+  abstract    = {Generative AI is increasingly being used informally in Air Traffic Management (ATM) for tasks such as flight plan generation, trajectory interpretation, and constraint checking. Although these tools can reduce workload and accelerate planning, their non-deterministic outputs create safety and operational risks in human-in-the-loop settings. This paper proposes the AI Trust and Assurance Layer (ATAL), a model-agnostic decision assurance architecture that evaluates whether AI-generated flight-planning outputs are sufficiently reliable for operational use. ATAL combines semantic stability under prompt variation, operational consistency of structured outputs, and normative constraint validation against domain rules, and maps these signals to a Decision Readiness Level (DRL) for human operators. An ATM-inspired experimental study shows how unsafe, inconsistent, or misleading outputs can be identified before influencing flight-plan validation or execution. Although demonstrated in aviation, the framework is also transferable to other safety-critical decision-support domains that require human oversight under regulatory constraints.},
   selected    = {false}
 }
 
@@ -37,6 +39,7 @@
   year        = {2026},
   publisher   = {Springer Nature},
   note        = {To be published},
+  abstract    = {Prompt injection exploits a structural weakness of LLM-integrated applications: untrusted natural language can be interpreted as both data and control. This paper presents AETHON, a lightweight model-agnostic middleware that enforces a pre-inference security decision using deterministic rules and a TF--IDF/logistic-regression detector. A calibrated cascade score, s(x)=max\{H(x),p(x)\}, preserves the operational logical-OR policy while supporting threshold-independent evaluation. The detector was frozen after training on 546 prompts and calibration on 116 validation prompts, with Platt scaling and a validation-selected threshold of τ=0.47. We then evaluated the frozen detector on 7,064 observations from four external benchmarks. AETHON reached a macro TPR of 0.8098 with sub-millisecond median cascade latency, but its overall FPR was 0.6924, its NotInject FPR was 0.6991, and its external macro AUROC was 0.5500, compared with 0.9515 on validation. The heuristic layer added no thresholded detections beyond the supervised detector in the frozen evaluation. The results show that deterministic pre-inference enforcement is inexpensive and auditable, but validation-selected calibration does not reliably transfer across heterogeneous prompt distributions. AETHON therefore exposes over-defense and cross-dataset generalization as first-class guardrail evaluation requirements.},
   selected    = {false}
 }
 
@@ -48,6 +51,7 @@
   booktitle   = {Proceedings of the 52nd Latin American Conference on Informatics (CLEI 2026)},
   year        = {2026},
   note        = {To be published},
+  abstract    = {Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. In this paper, we evaluate the robustness of LLMs for sentiment analysis of Spanish political discourse from social media, with emphasis on culturally situated affective interpretation. We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria. Using this framework, we compare proprietary and open-weight models under zero-shot and few-shot prompting, focusing on predictive robustness across human agreement conditions and counterfactual shift. Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure. GPT-4.1-mini remains the most stable among the evaluated models, whereas the two smaller open-weight models degrade more markedly under synthetic perturbations, and few-shot prompting provides only limited gains. Overall, the paper contributes a reproducible protocol for robustness-oriented evaluation in political sentiment analysis, an empirical characterization of model behavior under ambiguity and sentiment-flipped counterfactuals, and a publicly available Spanish social media dataset with three-way human sentiment annotations.},
   selected    = {false}
 }
 
@@ -95,6 +99,7 @@
   isbn        = {9781041151937},
   doi         = {10.1201/9781003678250-7},
   html        = {https://www.taylorfrancis.com/books/9781003678250/chapters/10.1201/9781003678250-7},
+  abstract    = {In 2015, all United Nations Member States adopted the 17 Sustainable Development Goals (SDGs) as a global framework to promote prosperity, equity, and sustainability by 2030. Among them, SDG 4 emphasizes the right to inclusive and quality education as a cornerstone for social mobility and sustainable development. Achieving this goal is particularly difficult in contexts marked by persistent inequalities, where access to higher education remains limited by socioeconomic or political conditions. In Mexico, despite significant advances in educational coverage, only a fraction of students from low-income families can access top-tier universities, highlighting the need for targeted financial aid and institutional support.},
   selected    = {false}
 }
 
@@ -134,7 +139,7 @@
   address     = {Cham},
   doi         = {10.1007/978-3-032-06078-5_12},
   html        = {https://link.springer.com/chapter/10.1007/978-3-032-06078-5_12},
-  abstract    = {Recent advancements in Large Language Models (LLMs) have significantly improved their problem-solving capabilities...},
+  abstract    = {Recent advancements in Large Language Models (LLMs) have significantly improved their problem-solving capabilities. However, these models still struggle when faced with complex multi-step reasoning tasks. In this paper, we propose the Multi-Layered Self-Reflection with Auto-Prompting (MAPS) framework, a novel approach designed to enhance multi-step mathematical reasoning in LLMs by integrating techniques such as Chain of Thought (CoT), Self-Reflection, and Auto-Prompting. Unlike traditional static prompting methods, MAPS employs an iterative refinement process. Initially, the model generates a solution using CoT prompting. When errors are detected, an adaptive self-reflection mechanism identifies and analyzes them, generating tailored prompts to guide corrections. These dynamically adjusted prompts enable the model to iteratively refine its reasoning. Experiments on four well-established benchmarks across multiple LLMs show that MAPS significantly outperforms standard CoT and achieves competitive results with reasoning-optimized models. In addition, MAPS enables general-purpose LLMs to reach performance levels comparable to specialized reasoning models. While deeper reflection layers improve accuracy, they also increase token usage and costs. To balance this trade-off, MAPS strategically limits reflection depth, ensuring an optimal balance between cost and reasoning performance.},
   isbn        = {978-3-032-06078-5},
   selected    = {true}
 }
@@ -155,6 +160,7 @@
   html        = {https://doi.org/10.21125/iceri.2025.0682},
   isbn        = {978-84-09-78706-7},
   issn        = {2340-1095},
+  abstract    = {Physical interaction enhances cognitive processes, and visuo-haptic simulators (VHS)—which integrate the sense of touch with visual simulations—offer a more engaging approach to learning abstract concepts. In particular, understanding the forces acting on a block on an inclined plane becomes more intuitive in a VHS environment compared to solely solving textbook problems. This study involved 19 first-year engineering students enrolled in an introductory Physics course. After receiving a lecture on the topic, the students engaged in a VHS activity and used ChatGPT to further interpret and discuss their findings. Their performance was compared to a control group of 28 first-year engineering students who followed a traditional instruction model and completed the same written evaluation. The groups consisted of 32\% female students in the experimental group, while only 21\% in the control group, highlighting the still persistent gender gap in engineering education. This paper presents an analysis of pre- and post-test results from the experimental group, as well as a comparative assessment of male and female students’ performance in both instructional models. Preliminary results revealed no statistically significant differences in learning gains between male and female students within the experimental group (p = 0.487).},
   selected    = {false}
 }
 
@@ -173,6 +179,7 @@
   html        = {https://sol.sbc.org.br/index.php/wcge/article/view/36338},
   award       = {Best Paper Award at LASDiGov 2025.},
   award_name  = {Best Paper},
+  abstract    = {Large Language Models (LLMs) have revolutionized natural language processing, but their reliance on extensive computational resources and proprietary APIs poses significant challenges for public sector applications. Government agencies often face legal constraints, such as GDPR and LGPD, preventing the use of external LLMs when handling sensitive data. Even when compliance is met, the financial burden of deploying large-scale models remains a major barrier. To address these challenges, we present LLM4Gov, a privacy-preserving computational tool designed to fine-tune distilled LLMs for government-related tasks while minimizing infrastructure costs. LLM4Gov follows a structured teacher-student learning pipeline, where a lightweight anonymization module first removes personally identifiable information (PII) before any interaction with an external LLM. A teacher LLM then generates task-specific instructions from the anonymized dataset, and a distilled student LLM is fine-tuned using Low-Rank Adaptation (LoRA) and quantization, enabling deployment on resource-constrained environments. Our experimental results show that LLM4Gov consistently outperforms competitive distilled LLMs, achieving higher accuracy while preserving privacy and interpretability.},
   selected    = {true}
 }
 
@@ -187,6 +194,7 @@
   publisher   = {SBC},
   doi         = {10.5753/sbes.2025.9927},
   html        = {https://sol.sbc.org.br/index.php/sbes/article/view/37006},
+  abstract    = {Software testing is essential to ensure system quality, but it remains time-consuming and error-prone when performed manually. Although recent advances in Large Language Models (LLMs) have enabled automated test generation, most existing solutions focus on unit testing and do not address the challenges of end-to-end (E2E) testing, which validates complete application workflows from user input to final system response. This paper introduces GenIAE2ETest, which leverages generative AI to generate executable E2E test scripts from natural language descriptions automatically. We evaluated the approach on two web applications, assessing completeness, correctness, adaptation effort, and robustness. Results were encouraging: the scripts achieved an average of 77\% for both element metrics, 82\% for precision of execution, 85\% for execution recall, required minimal manual adjustments (average manual modification rate of 10\%), and showed consistent performance in typical web scenarios. Although some sensitivity to context-dependent navigation and dynamic content was observed, the findings suggest that GenIA-E2ETest is a practical and effective solution to accelerate E2E test automation from natural language, reducing manual effort and broadening access to automated testing.},
   selected    = {false}
 }
 
@@ -229,7 +237,7 @@
   issn        = {2504-284X},
   doi         = {10.3389/feduc.2025.1418184},
   html        = {https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1418184},
-  abstract    = {The Information Technology (IT) sector, a key driver of Industry 4.0 and the transition toward Industry 5.0, continues to demonstrate resilience in the face of prevalent global challenges...},
+  abstract    = {Introduction: The Information Technology (IT) sector, a key driver of Industry 4.0 and the transition toward Industry 5.0, continues to demonstrate resilience in the face of prevalent global challenges, including the ongoing COVID-19 pandemic and persistent talent shortages. The prominence of IT roles in the global job market highlights the need for a unified framework that efficiently identifies and categorizes IT jobs. While the International Labour Organization (ILO) has introduced the International Standard Classification of Occupations (ISCO) for job classification on a global scale, it lacks the necessary granularity for the rapidly evolving IT landscape. Methods: Efforts to bridge the previous granularity issue often fall short due to country-specific labor market peculiarities. To address this gap, this work introduces a novel hierarchical taxonomy for classifying IT jobs within the broader framework of ISCO-08. Following meticulous data labeling and clustering, the development of the Bee-inspired Employment and Expertise Taxonomy (BEET) was a collaborative effort between the HR team, data scientists, analysts, and the authors of this article. A lot of public job postings were gathered that encompass a diverse range of vacancies within the IT sector, spanning from October 2023 to February 2025. Using insights from the clustering results, the team worked to identify distinct patterns and commonalities across IT job roles. Our taxonomy consists of five major groups, further divided into 15 sub-major groups and 35-unit groups. The proposed taxonomy has the potential to not only categorize diverse IT roles with precision but also forecast workforce demands effectively. Results: Key insights suggest that this hierarchical approach could significantly aid in workforce demand forecasting and provide valuable guidance to educators in shaping programs that prepare professionals for the challenges of Industry 5.0. Furthermore, by aligning educational efforts with the evolving needs of the global IT market, our proposal offers a robust framework for both analysts and educators, providing strategic insights essential for future workforce development in the rapidly advancing. Discussion: The development of the BEET taxonomy marks a significant advancement as a framework for IT job classification, offering a comprehensive and adaptable tool aligned with the evolving demands of the technology sector in the era of Industry 5.0. By leveraging the BEET framework, we can gain deeper insights into the dynamics of the IT labor market, enabling more targeted and impactful research. However, some limitations should be noted, as the dataset used to develop BEET consists exclusively of English-language job postings from various countries, which may introduce linguistic and regional biases. Additionally, certain niche or emerging roles that are less frequently advertised online may be underrepresented in the taxonomy.},
   selected    = {false}
 }
 @article{robledo2025comparative,
@@ -244,7 +252,7 @@
   issn        = {2504-284X},
   doi         = {10.3389/feduc.2025.1545071},
   html        = {https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1545071},
-  abstract    = {Current society needs professionals able to identify and collaboratively solve the main challenges of the 21st century. Students must be trained to face real challenges in their future workplaces and to acquire the necessary competencies to succeed in the current-day global world...},
+  abstract    = {Current society needs professionals able to identify and collaboratively solve the main challenges of the 21st century. Students must be trained to face real challenges in their future workplaces and to acquire the necessary competencies to succeed in the current-day global world. As an answer to such needs, the Tecnologico de Monterrey launched in 2019 its competency-based Tec21 educational model, emphasizing the development of disciplinary and transversal competencies using a challenge-based learning (CBL) model. The present contribution is aimed at measuring the effectiveness of this model compared to the more traditional previous learning (PL) model. We present a quasi-experimental study comparing the academic performance of 1705 freshman engineering students, 43\% enrolled in the PL model and 57\% enrolled in the CBL model. Although the CBL model was applied to all the institution’s majors, the paper is focused on the freshman physics courses of the engineering majors. The study spans seven semesters, from Spring 2018 to Spring 2021. It was found that the overall student performance, measured by the average final course grades, improved by 9.4\% in the CBL model compared to the PL model. On the other hand, the challenge average grades of the CBL model were like the project average grades of the PL model. Additionally, two-year opinion surveys about the CBL model were administered to 570 students. It was found that 71\% of the students expressed a favorable perception of the CBL model in terms of their competencies development and their ability to solve problems. It is suggested that the explicit integration of physics, math, and computing concepts through the solution of real-life challenges in the CBL model bears a stronger student engagement and thus yields better general learning outcomes than the PL model.},
   selected    = {false}
 }
 
@@ -264,6 +272,7 @@
   issn        = {2340-1095},
   doi         = {10.21125/iceri.2024.0752},
   html        = {https://doi.org/10.21125/iceri.2024.0752},
+  abstract    = {Since 2013, the 'Leaders of Tomorrow' Scholarship Program at Tecnologico de Monterrey, Mexico, has fully supported academically outstanding university students from economically disadvantaged backgrounds, who have shown a strong commitment to leadership in social impact initiatives. Our previous research explored characteristics contributing to student academic success, including participation in group activities, community projects, technological or research developments, and sociodemographic factors. However, beyond individual achievement, it is crucial to evaluate the broader societal impact of their academic training. Specifically, it is important to consider how students utilize their education to contribute positively to their communities and society at large. This study investigates the motivations of 1,200 students who enrolled in the scholarship program between 2017 and 2022. The original database, provided by the Institute for the Future of Education at Tecnologico de Monterrey, consisted of 22,718 records. The main objective of this study is to identify the motivational profiles of these academically successful students and understand the factors that drive them to continue their education at the university level. To achieve this, Spranger's theory is used as a foundation, suggesting that everyone possesses a unique set of motivations. Six fundamental motivational values—aesthetic, economic, individualistic, political, altruistic, and theoretical—were analyzed to uncover underlying factors using the statistical tool called Factor Analysis. During the admission process for the scholarship program, students were assessed to estimate their six motivational indices, each on a scale from 1 to 100. The results of the Factor Analysis, including three factors and the factor loads for their most representative variables, are presented below: Factor 1. Socioeconomic Dimension: This dimension is characterized by high altruism (0.851) and low concern for economic (-0.717) and political (-0.582) benefits. It reflects a balance between a strong desire to help others and a lesser focus on obtaining economic or political advantages. Factor 2. Theoretical-Intellectual Dimension: Characterized by a strong orientation towards theoretical knowledge (0.984), highlighting an inclination for abstract thinking. Factor 3. Aesthetic-Individual Dimension: Focuses on beauty and self-expression, with high aesthetic (0.839) and moderate individualistic (0.394), indicating a significant appreciation for creativity and personal autonomy. These three factors account for 69.2\% of the total variance in the motivational indices measured, providing a comprehensive view of the motivational profiles of these students. By considering the deep motivations and individual needs of students, we can tailor educational support to achieve more equitable access to higher education. Understanding these motivations allows us to design specific interventions that address needs, attracting talented students to high-quality education. This approach aids students in achieving their academic goals and contributes to creating a fairer and more equitable society. Additionally, studying these motivations provides valuable insights for strengthening scholarship programs both in Latin America and worldwide, allowing better adaptation to support students’ ambitions.},
   selected    = {false}
 }
 
@@ -306,6 +315,7 @@
   year        = {2024},
   doi         = {10.3389/feduc.2024.1418006},
   html        = {https://doi.org/10.3389/feduc.2024.1418006},
+  abstract    = {Introduction: In recent years, numerous AI tools have been employed to equip learners with diverse technical skills such as coding, data analysis, and other competencies related to computational sciences. However, the desired outcomes have not been consistently achieved. This study aims to analyze the perspectives of students and professionals from non-computational fields on the use of generative AI tools, augmented with visualization support, to tackle data analytics projects. The focus is on promoting the development of coding skills and fostering a deep understanding of the solutions generated. Consequently, our research seeks to introduce innovative approaches for incorporating visualization and generative AI tools into educational practices. Methods: This article examines how learners perform and their perspectives when using traditional tools vs. LLM-based tools to acquire data analytics skills. To explore this, we conducted a case study with a cohort of 59 participants among students and professionals without computational thinking skills. These participants developed a data analytics project in the context of a Data Analytics short session. Our case study focused on examining the participants' performance using traditional programming tools, ChatGPT, and LIDA with GPT as an advanced generative AI tool. Results: The results shown the transformative potential of approaches based on integrating advanced generative AI tools like GPT with specialized frameworks such as LIDA. The higher levels of participant preference indicate the superiority of these approaches over traditional development methods. Additionally, our findings suggest that the learning curves for the different approaches vary significantly. Since learners encountered technical difficulties in developing the project and interpreting the results. Our findings suggest that the integration of LIDA with GPT can significantly enhance the learning of advanced skills, especially those related to data analytics. We aim to establish this study as a foundation for the methodical adoption of generative AI tools in educational settings, paving the way for more effective and comprehensive training in these critical areas. Discussion: It is important to highlight that when using general-purpose generative AI tools such as ChatGPT, users must be aware of the data analytics process and take responsibility for filtering out potential errors or incompleteness in the requirements of a data analytics project. These deficiencies can be mitigated by using more advanced tools specialized in supporting data analytics tasks, such as LIDA with GPT. However, users still need advanced programming knowledge to properly configure this connection via API. There is a significant opportunity for generative AI tools to improve their performance, providing accurate, complete, and convincing results for data analytics projects, thereby increasing user confidence in adopting these technologies. We hope this work underscores the opportunities and needs for integrating advanced LLMs into educational practices, particularly in developing computational thinking skills.},
   selected    = {true}
 }
 @inproceedings{valverde2024integrating,
@@ -416,7 +426,7 @@
   address     = {Cham},
   doi         = {10.1007/978-3-030-11680-4_6},
   html        = {https://link.springer.com/chapter/10.1007/978-3-030-11680-4_6},
-  abstract    = {In the last years, different efforts have been made to extract information that users express through online social networking services, e.g. Twitter. Despite the progress achieved, there are still open gaps to be addressed...},
+  abstract    = {In the last years, different efforts have been made to extract information that users express through online social networking services, e.g. Twitter. Despite the progress achieved, there are still open gaps to be addressed. Related to the sentiment analysis issue, we stand out the following gaps: (a) low accuracy in sentiment classification task for short texts; and, (b) lack of tools for sentiment analysis in several languages. Aiming to fill these gaps, in this paper we apply the Spanish adaptation of ANEW (Affective Norms for English Words) as resource to improve the Twitter sentiment analysis by applying a variety of multi-label classifiers in a corpus of Spanish tweets collected by us. To the best of our knowledge, this is the first work using a Spanish adaptation of ANEW for sentiment analysis.},
   isbn        = {978-3-030-11680-4},
   selected    = {false}
 }
@@ -432,6 +442,7 @@
   pages       = {47--51},
   year        = {2018},
   html        = {https://ceur-ws.org/Vol-2077/paper6.pdf},
+  abstract    = {In the last years, job recommender systems have become popular since they successfully reduce information overload by generating personalized job suggestions. Although in the literature exists a variety of techniques and strategies used as part of job recommender systems, most of them fail to recommending job vacancies that fit properly to the job seekers profiles. Thus, the contributions of this work are threefold, we: i) made publicly available a new dataset formed by a set of job seekers profiles and a set of job vacancies collected from different job search engine sites; ii) put forward the proposal of a framework for job recommendation based on professional skills of job seekers; and iii) carried out an evaluation to quantify empirically the recommendation abilities of two state-of-the-art methods, considering different configurations, within the proposed framework. We thus present a general panorama of job recommendation task aiming to facilitate research and real-world application design regarding this important issue.},
   selected    = {false}
 }
 @article{valverde2018role,
@@ -476,6 +487,7 @@
   publisher   = {Springer},
   doi         = {10.1007/978-3-319-55209-5_4},
   html        = {https://doi.org/10.1007/978-3-319-55209-5_4},
+  abstract    = {Many real-world networks, such as the Internet, social networks, biological networks, and others, are massive in size, which impairs their processing and analysis. To cope with this, the network size could be reduced without losing relevant information. In this paper, we extend a work that proposed a sampling method based on the following centrality measures: degree, k-core, clustering, eccentricity and structural holes. For our experiments, we remove 30\% and 50\% of the vertices and their edges from the original network. After, we evaluate our proposal on six real-world networks on relational classification task using eight different classifiers. Classification results achieved on sampled graphs generated from our proposal are similar to those obtained on the entire graphs. The execution time for learning step of the classifier is shorter on the sampled graph compared to the entire graph and random sampling. In most cases, the original graph was reduced by up to 50\% of its initial number of edges without losing topological properties.},
   selected    = {false}
 }
 
@@ -518,6 +530,7 @@
   pages       = {62--72},
   year        = {2016},
   html        = {https://ceur-ws.org/Vol-1743/paper7.pdf},
+  abstract    = {Many real-world networks, such as the Internet, social networks, biological networks are massive in size, which difficult different processing and analysis tasks. For this reason, it is necessary to apply a sampling process to reduce the network size without losing relevant network information. In this paper, we propose a new and intuitive sampling method based on exploiting the following centrality measures: degree, k-core, clustering, eccentricity and structural holes. For our experiments, we delete 30\% and 50\% of the vertices from the original network and evaluate our proposal on six real-world networks on relational classification task using six different classifiers. Classification results achieved on sampled graphs generated from our proposal are similar to those obtained on the entire graphs. In most cases, our proposal reduced the original graphs by up to 50\% of its original number of edges. Moreover, the execution time for learning step of the classifier is shorter on the sampled graph.},
   selected    = {false}
 }
 
@@ -546,6 +559,7 @@
   pages       = {58--65},
   year        = {2015},
   html        = {https://ceur-ws.org/Vol-1478/paper6.pdf},
+  abstract    = {Causal Bayesian Graphs can be constructed from causal information in text. These graphs can be sparse because the cause or effect event can be expressed in various ways to represent the same information. This sparseness can corrupt inferences made on the graph. This paper proposes to reduce sparseness by merging: equivalent nodes and their edges. This paper presents a number of experiments that evaluates the applicability of node similarity techniques to detect equivalent nodes. The experiments found that techniques that rely upon combination of node contents and structural information are the most accurate strategies, specifically we have employed: 1. node name similarity and 2. combination of node name similarity and common neighbours (SMCN). In addition, the SMCN returns ”better” equivalent nodes than the string matching strategy.},
   selected    = {false}
 }
 @article{cherman2015lazy,
@@ -559,6 +573,7 @@
   year        = {2015},
   doi         = {10.1007/s10846-014-0144-4},
   html        = {https://doi.org/10.1007/s10846-014-0144-4},
+  abstract    = {Lazy multi-label learning algorithms have become an important research topic within the multi-label community. These algorithms usually consider the set of standard k-Nearest Neighbors of a new instance to predict its labels (multi-label). The prediction is made by following a voting criteria within the multi-labels of the set of k-Nearest Neighbors of the new instance. This work proposes the use of two alternative strategies to identify the set of these examples: the Mutual and Not Mutual Nearest Neighbors rules, which have already been used by lazy single-learning algorithms. In this work, we use these strategies to extend the lazy multi-label algorithm BRkNN. An experimental evaluation carried out to compare both mutuality strategies with the original BRkNN algorithm and the well-known MLkNN lazy algorithm on 15 benchmark datasets showed that MLkNN presented the best predictive performance for the Hamming-Loss evaluation measure, although it was significantly outperformed by the mutuality strategies when F-Measure is considered. The best results of the lazy algorithms were also compared with the results obtained by the Binary Relevance approach using three different base learning algorithms.},
   selected    = {false}
 }
 @inproceedings{berton2015link,
@@ -602,6 +617,7 @@
   publisher   = {Springer International Publishing},
   doi         = {10.1007/978-3-319-09761-9_31},
   html        = {https://doi.org/10.1007/978-3-319-09761-9_31},
+  abstract    = {Manually annotated data is the basis for a large number of tasks in natural language processing as either: evaluation or training data. The annotation of large amounts of data by dedicated full-time annotators can be an expensive task, which may be beyond the budgets of many research projects. An alternative is crowd-sourcing where annotations are split among many part time annotators. This paper presents a freely available open-source platform for crowd-sourcing manual annotation tasks, and describes its application to annotating causative relations.},
   selected    = {false}
 }
 
@@ -618,6 +634,7 @@
   publisher   = {Springer},
   doi         = {10.1007/978-3-319-09761-9_35},
   html        = {https://doi.org/10.1007/978-3-319-09761-9_35},
+  abstract    = {The grouping of related verbs is a mature problem in linguistics and natural language processing. There have been a number of resources which have grouped together English verbs, for example VerbNet. In comparison Portuguese has fewer resources, some of which have been based upon English verb studies. The manual grouping of Portuguese verbs would be a manually intensive task, consequently this paper presents a strategy for grouping Portuguese verbs. The strategy connects verbs through common arguments and uses overlapping community detection algorithm to identify related verbs.},
   selected    = {false}
 }
 
@@ -636,6 +653,7 @@
   html        = {https://doi.org/10.1007/978-3-319-09153-2_3},
   award       = {Best Paper Award at ICCSA 2014.},
   award_name  = {Best Paper},
+  abstract    = {Users of online social networks voluntarily participate in different user groups or communities. Researches suggest the presence of strong local community structure in these social networks, i.e., users tend to meet other people via mutual friendship. Recently, different approaches have considered communities structure information for increasing the link prediction accuracy. Nevertheless, these approaches consider that users belong to just one community. In this paper, we propose three measures for the link prediction task which take into account all different communities that users belong to. We perform experiments for both unsupervised and supervised link prediction strategies. The evaluation method considers the links imbalance problem. Results show that our proposals outperform state-of-the-art unsupervised link prediction measures and help to improve the link prediction task approached as a supervised strategy.},
   selected    = {false}
 }
 
@@ -680,6 +698,7 @@
   publisher   = {Springer},
   doi         = {10.1007/s13278-013-0142-8},
   html        = {https://doi.org/10.1007/s13278-013-0142-8},
+  abstract    = {Currently, online social networks and social media have become increasingly popular showing an exponential growth. This fact have attracted increasing research interest and, in turn, facilitating the emergence of new interdisciplinary research directions, such as social network analysis. In this scenario, link prediction is one of the most important tasks since it deals with the problem of the existence of a future relation among members in a social network. Previous techniques for link prediction were based on structural (or topological) information. Nevertheless, structural information is not enough to achieve a good performance in the link prediction task on large-scale social networks. Thus, the use of additional information, such as interests or behaviors that nodes have into their communities, may improve the link prediction performance. In this paper, we analyze the viability of using a set of simple and non-expensive techniques that combine structural with community information for predicting the existence of future links in a large-scale online social network, such as Twitter. Twitter, a microblogging service, has emerged as a useful source of informative data shared by millions of users whose relationships require no reciprocation. Twitter network was chosen because it is not well understood, mainly due to the occurrence of directed and asymmetric links yet. Experiments show that our proposals can be used efficiently to improve unsupervised and supervised link prediction task in a directed and asymmetric large-scale network.},
   selected    = {false}
 }
 
@@ -696,6 +715,7 @@
   publisher   = {Springer},
   doi         = {10.1007/978-3-642-34459-6_10},
   html        = {https://doi.org/10.1007/978-3-642-34459-6_10},
+  abstract    = {Cluster in graphs is densely connected group of vertices sparsely connected to other groups. Hence, for prediction of a future link between a pair of vertices, these vertices common neighbors may play different roles depending on if they belong or not to the same cluster. Based on that, we propose a new measure (WIC) for link prediction between a pair of vertices considering the sets of their intra-cluster or within-cluster (W) and between-cluster or inter-cluster (IC) common neighbors. Also, we propose a set of measures, referred to as W forms, using only the set given by the within-cluster common neighbors instead of using the set of all common neighbors as usually considered in the basic local similarity measures. Consequently, a previous clustering scheme must be applied on the graph. Using three different clustering algorithms, we compared WIC measure with ten basic local similarity measures and their counterpart W forms on ten real networks. Our analyses suggest that clustering information, no matter the clustering algorithm used, improves link prediction accuracy.},
   selected    = {false}
 }
 @inproceedings{calderon2012multiple,
@@ -775,6 +795,7 @@
   doi         = {10.18682/cyt.v1i1.785},
   html        = {https://dspace.palermo.edu/ojs/index.php/cyt/article/view/785},
   note        = {Congreso de Inteligencia Computacional Aplicada (CICA 2009)},
+  abstract    = {Este artículo propone un sistema experto basado en el modelo probabilístico de redes Bayesianas para el diagnóstico de plagas y enfermedades del espárrago, el cual, hace uso de la técnica de propagación de certeza basada en el algoritmo de paso de mensajes de Kim y Pearl para la actualización de nodos dentro de la red de diagnóstico. De esta manera se logra alcanzar resultados con un margen de diferencia de centésimas con respecto al cálculo exacto obtenido con la tabla de distribución conjunta completa usando un algoritmo de Enumeración. Además, el sistema experto logra establecer resultados coherentes de acuerdo a los patrones convencionales de cada germen patógeno del espárrago y sus manifestaciones.},
   selected    = {false}
 }
 
