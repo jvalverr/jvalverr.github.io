@@ -32,4 +32,4 @@ Esto no solo mejora el análisis de sentimiento. También abre mejores posibilid
 
 ---
 
-*Gracias a Alejandro Martin del Campo, Leonardo Cañete, Juliette Trejo Ceballos, Federico Zenteno, Efren G. y a todo el equipo por la colaboración en este proyecto.*
+_Gracias a Alejandro Martin del Campo, Leonardo Cañete, Juliette Trejo Ceballos, Federico Zenteno, Efren G. y a todo el equipo por la colaboración en este proyecto._

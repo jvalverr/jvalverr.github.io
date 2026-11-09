@@ -7,7 +7,7 @@ tags: nlp ai machine-learning education
 categories: ai
 ---
 
-Some books age, others become timeless — and *Natural Language Processing with Python* by Steven Bird, Ewan Klein & Edward Loper is definitely the latter.
+Some books age, others become timeless — and _Natural Language Processing with Python_ by Steven Bird, Ewan Klein & Edward Loper is definitely the latter.
 
 This book isn't about the latest LLMs or GenAI trends. It's about **the foundations that made today's language models possible.**
 

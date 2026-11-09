@@ -35,6 +35,8 @@ on:
 
 jobs:
   lighthouse-badger-easy:
+    # only run on the template's repo (this fork has no LIGHTHOUSE_BADGER_TOKEN and the URLs/branch above are the template's)
+    if: github.repository_owner == 'alshedivat'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:

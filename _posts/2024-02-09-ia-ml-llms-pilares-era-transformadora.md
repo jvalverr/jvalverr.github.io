@@ -17,8 +17,8 @@ La pieza describe la newsletter como una **guía elocuente y práctica** por un 
 
 ## Lo que se promete a quien se suscribe
 
-- **Experiencias reales**, **casos** y **reflexiones** ligadas a la **frontera** de IA, ML y LLMs, con énfasis en **pioneros** y en quienes empujan los límites de lo posible  
-- Contenido **relevante y provocador** que ilumina **retos y oportunidades** del momento y, a la vez, **reconoce logros** de quienes están **redefiniendo** qué cabe esperar de la tecnología  
+- **Experiencias reales**, **casos** y **reflexiones** ligadas a la **frontera** de IA, ML y LLMs, con énfasis en **pioneros** y en quienes empujan los límites de lo posible
+- Contenido **relevante y provocador** que ilumina **retos y oportunidades** del momento y, a la vez, **reconoce logros** de quienes están **redefiniendo** qué cabe esperar de la tecnología
 - Un tono que busca **inspirar**, **desafiar** y **equipar** con argumentos para **no solo sobrevivir**, sino **prosperar** en un ciclo de **innovaciones disruptivas**
 
 ## Nivel técnico y retroalimentación
@@ -27,7 +27,7 @@ El autor anticipa que **algunas publicaciones pueden volverse más técnicas** d
 
 ## El mensaje central
 
-El cierre apela a **alimentar la pasión** por la tecnología, **avanzar en la trayectoria profesional** y formar parte de una **comunidad** que intenta **moldear el futuro desde el presente**. La tesis que resume el nombre de la newsletter es directa: en un mundo donde **la única constante es el cambio**, **innovar deja de ser un capricho**; la **elección** —individual y colectiva— se formula en términos de **innovar o perecer** (*innovate or die*).
+El cierre apela a **alimentar la pasión** por la tecnología, **avanzar en la trayectoria profesional** y formar parte de una **comunidad** que intenta **moldear el futuro desde el presente**. La tesis que resume el nombre de la newsletter es directa: en un mundo donde **la única constante es el cambio**, **innovar deja de ser un capricho**; la **elección** —individual y colectiva— se formula en términos de **innovar o perecer** (_innovate or die_).
 
 👉 [Mismo tema en LinkedIn](https://www.linkedin.com/pulse/bem-vinda-jorge-valverde-rebaza-v7x1e/)
 

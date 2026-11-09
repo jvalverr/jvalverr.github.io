@@ -20,6 +20,6 @@ This note points to a longer write-up on that shift: the impact of LLMs on the *
 
 The full write-up is here:
 
-👉 [Open or download *Thoughts on LLM* (PDF)]({{ '/assets/pdf/thoughts_on_llm20230428.pdf' | relative_url }})
+👉 [Open or download _Thoughts on LLM_ (PDF)]({{ '/assets/pdf/thoughts_on_llm20230428.pdf' | relative_url }})
 
 Which NLP or LLM topic would you like to see unpacked in more depth next?

@@ -6,7 +6,6 @@ He holds a **Ph.D. in Computer Science and Computational Mathematics (2017)** an
 
 Currently, he is a **Professor at the School of Engineering and Sciences at Tecnológico de Monterrey** and has collaborated with academic institutions and research groups across **Peru, Brazil, and Mexico**.
 
-
 LinkedIn: [linkedin.com/in/jvalverr ](https://www.linkedin.com/in/jvalverr)
 
 ORCID: [https://orcid.org/0000-0001-8664-9692](https://orcid.org/0000-0001-8664-9692)
@@ -59,8 +58,6 @@ He has also conducted research visits at:
 
 - **Université de Montpellier (France)**
 - **University of Porto (Portugal)**
-
-
 
 ---
 

@@ -18,7 +18,8 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       {% if url_beginning == '/blog/' %}
-        Created on {{ page.date | date: '%B %d, ' }}<a href="{{ year | prepend: '/blog/' | relative_url }}">{{ year }}</a>
+        Created on {{ page.date | date: '%B %d, ' -}}
+        <a href="{{ year | prepend: '/blog/' | relative_url }}">{{ year }}</a>
       {% else %}
         Created on {{ page.date | date: '%B %d, %Y' }}
       {% endif %}
@@ -28,42 +29,44 @@ layout: default
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     {% if url_beginning != '/blog/' or tags != '' or categories != '' %}
-    <p class="post-tags">
-      {% if url_beginning != '/blog/' %}
-        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
-      {% endif %}
-      {% if tags != '' %}
+      <p class="post-tags">
         {% if url_beginning != '/blog/' %}
-          &nbsp; &middot; &nbsp;
+          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
         {% endif %}
-        {% for tag in page.tags %}
-          {% if url_beginning == '/blog/' %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-          {% else %}
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+        {% if tags != '' %}
+          {% if url_beginning != '/blog/' %}
+            &nbsp; &middot; &nbsp;
           {% endif %}
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
+          {% for tag in page.tags %}
+            {% if url_beginning == '/blog/' %}
+              <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
+            {% else %}
+              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+            {% endif %}
+            {% unless forloop.last %}
+              &nbsp;
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
 
-      {% if categories != '' %}
-        {% if tags != '' or url_beginning != '/blog/' %}
-          &nbsp; &middot; &nbsp;
-        {% endif %}
-        {% for category in page.categories %}
-          {% if url_beginning == '/blog/' %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}</a>
-          {% else %}
-            <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
+        {% if categories != '' %}
+          {% if tags != '' or url_beginning != '/blog/' %}
+            &nbsp; &middot; &nbsp;
           {% endif %}
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    </p>
+          {% for category in page.categories %}
+            {% if url_beginning == '/blog/' %}
+              <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
+                <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
+              </a>
+            {% else %}
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
+            {% endif %}
+            {% unless forloop.last %}
+              &nbsp;
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      </p>
     {% endif %}
   </header>
 

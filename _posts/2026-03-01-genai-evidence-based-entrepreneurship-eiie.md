@@ -5,7 +5,7 @@ date: 2026-03-01 10:00:00
 description: Why early-stage ventures fail even when founders follow established frameworks, and how LLMs can help strengthen problem quantification and validation.
 tags: llms generative-ai entrepreneurship research
 categories: research
-published : true
+published: true
 ---
 
 Last November, I had the opportunity to present my research at the **VIII International Research Meeting in Entrepreneurship (VIII EIIE)**. My contribution tackled a question that still matters to me:

@@ -4,6 +4,7 @@ title: "Challenges in Exploratory Visualization of Multidimensional Data: Paradi
 description: "Collaborating Researcher · 2012–2016"
 img: assets/img/projects/11_exploratory_visualization.svg
 importance: 11
+category: applied-ai
 ---
 
 Thematic research project on the methodological and computational challenges of exploratory visualization of multidimensional data, including new paradigms, scalability and applications.

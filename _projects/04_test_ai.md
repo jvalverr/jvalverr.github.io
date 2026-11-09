@@ -4,6 +4,7 @@ title: "Test-AI: Generative AI for Effective Software Test Automation"
 description: "Collaborating Researcher · 2023–2026"
 img: assets/img/projects/04_test_ai.svg
 importance: 4
+category: llm-and-generative-ai
 related_publications: true
 ---
 

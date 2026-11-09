@@ -4,6 +4,7 @@ title: Social Network Analysis and Mining
 description: "Collaborating Researcher · 2015–2018"
 img: assets/img/projects/09_social_network_analysis.svg
 importance: 9
+category: applied-ai
 related_publications: true
 ---
 
