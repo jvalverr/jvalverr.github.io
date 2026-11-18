@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Corelytics: Generative AI and Intelligent Agents for Supporting Data Analytics Projects"
+title: "Corelytics: Generative AI Agents for Data Analytics"
 description: >-
   Research and development project on the use of Generative AI and intelligent
   agents to support Data Analytics and Data Science projects, with a focus on
@@ -20,8 +20,8 @@ topics:
   - Data Analytics
 
 role: "Principal Investigator"
-related_publications: true
 
+related_publications: true
 ---
 
 <p class="lead">
