@@ -70,12 +70,18 @@ thinking.
 
 The project explores questions such as:
 
-- How can Generative AI support users with limited programming experience throughout a Data Analytics project?
-- How can intelligent agents provide specialized support across different stages of the analytics lifecycle?
-- How should AI-assisted analytical environments balance automation with learning and human reasoning?
-- How can Large Language Models, visualization tools and interactive computing environments be integrated into coherent analytical workflows?
-- How can agent-based systems evaluate intermediate results and provide context-aware guidance during Data Science projects?
-- What forms of AI assistance improve analytical productivity without weakening the development of core Data Analytics skills?
+- How can Generative AI support users with limited programming experience
+  throughout a Data Analytics project?
+- How can intelligent agents provide specialized support across different
+  stages of the analytics lifecycle?
+- How should AI-assisted analytical environments balance automation with
+  learning and human reasoning?
+- How can Large Language Models, visualization tools and interactive computing
+  environments be integrated into coherent analytical workflows?
+- How can agent-based systems evaluate intermediate results and provide
+  context-aware guidance during Data Science projects?
+- What forms of AI assistance improve analytical productivity without weakening
+  the development of core Data Analytics skills?
 
 ### Current research direction
 
@@ -101,13 +107,13 @@ projects**.
 
 ### Software and technology transfer
 
-- **Corelytics software registration** (INDAUTOR) with the registration number: 03-2026-092112011000-01.
+- **Corelytics software registration (INDAUTOR):**
+  registration number **03-2026-092112011000-01**.
 
 ### Open-source repositories
 
 - **LLMs for Data Analytics Learning artifacts:**  
   [View repository on GitHub](https://github.com/jvalverr/data-analytics-education)
-
 
 ### Research artifacts
 
@@ -115,10 +121,6 @@ projects**.
 - LLM-supported Data Analytics workflows.
 - Intelligent-agent architecture for analytical projects.
 - Integration with visualization and interactive computing environments.
-
-<!-- ### Open-source repositories -->
-
-<!-- Add repositories here when publicly available -->
 
 <!-- ### Awards and recognition -->
 
@@ -144,4 +146,4 @@ projects**.
 - Human-AI Collaboration
 - Computational Thinking
 
-{% nocite valverde2024empowering valverde2024advanced %}
+{% nocite valverde2024empowering, valverde2024advanced %}
