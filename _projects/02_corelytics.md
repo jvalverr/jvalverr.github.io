@@ -146,4 +146,9 @@ projects**.
 - Human-AI Collaboration
 - Computational Thinking
 
+
+{% comment %}
+Pending (empty in the source document): Funding.
+{% endcomment %}
+
 {% nocite valverde2024empowering valverde2024advanced %}
