@@ -20,6 +20,8 @@ topics:
   - Data Analytics
 
 role: "Principal Investigator"
+related_publications: true
+
 ---
 
 <p class="lead">
