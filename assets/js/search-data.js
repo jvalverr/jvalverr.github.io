@@ -279,9 +279,9 @@ ninja.data = [{
               window.location.href = "/projects/01_cyberdefense/";
             },},{id: "projects-corelytics-generative-ai-and-intelligent-agents-for-supporting-data-analytics-projects",
           title: 'Corelytics: Generative AI and Intelligent Agents for Supporting Data Analytics Projects',
-          description: "Principal Investigator · 2024–2027",
+          description: "Research and development project on the use of Generative AI and intelligent agents to support Data Analytics and Data Science projects, with a focus on AI-assisted learning, analytical workflows and agent-based support systems.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/02_corelytics/";
+              window.location.href = "/projects/corelytics/";
             },},{id: "projects-digital-media-observatory-media-literacy-and-prevention-of-disinformation-operations",
           title: 'Digital Media Observatory: Media Literacy and Prevention of Disinformation Operations',
           description: "Collaborating Researcher · 2024–2026",
