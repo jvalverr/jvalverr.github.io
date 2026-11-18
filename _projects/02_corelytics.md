@@ -101,16 +101,13 @@ projects**.
 
 ### Software and technology transfer
 
-- **Corelytics software registration — INDAUTOR** with the registration number: 03-2026-092112011000-01.
+- **Corelytics software registration** (INDAUTOR) with the registration number: 03-2026-092112011000-01.
 
-### Scientific publications
+### Open-source repositories
 
-- Research on the use of advanced Large Language Models and visualization tools
-  for Data Analytics learning.
-- Research on Generative AI-assisted Data Analytics education and analytical
-  problem solving.
+- **LLMs for Data Analytics Learning artifacts:**  
+  [View repository on GitHub](https://github.com/jvalverr/data-analytics-education)
 
-<!-- Add future publications here -->
 
 ### Research artifacts
 
@@ -147,4 +144,4 @@ projects**.
 - Human-AI Collaboration
 - Computational Thinking
 
-{% nocite valverde2024empowering, valverde2024advanced %}
+{% nocite valverde2024empowering valverde2024advanced %}
