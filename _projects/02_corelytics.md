@@ -101,8 +101,7 @@ projects**.
 
 ### Software and technology transfer
 
-- **Corelytics software registration — INDAUTOR**
-- **Registration number:** 03-2026-092112011000-01
+- **Corelytics software registration — INDAUTOR** with the registration number: 03-2026-092112011000-01.
 
 ### Scientific publications
 
