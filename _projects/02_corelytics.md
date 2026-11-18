@@ -146,4 +146,4 @@ projects**.
 - Human-AI Collaboration
 - Computational Thinking
 
-{% nocite valverde2024empowering, valverde2024advanced %}
+{% nocite valverde2024empowering valverde2024advanced %}
