@@ -327,8 +327,8 @@ ninja.data = [{
           description: "Researcher (M.Sc. project) · 2011–2013",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_link_prediction/";
-            },},{id: "projects-corelytics-generative-ai-and-intelligent-agents-for-supporting-data-analytics-projects",
-          title: 'Corelytics: Generative AI and Intelligent Agents for Supporting Data Analytics Projects',
+            },},{id: "projects-corelytics-generative-ai-agents-for-data-analytics",
+          title: 'Corelytics: Generative AI Agents for Data Analytics',
           description: "Research and development project on the use of Generative AI and intelligent agents to support Data Analytics and Data Science projects, with a focus on AI-assisted learning, analytical workflows and agent-based support systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/corelytics/";
