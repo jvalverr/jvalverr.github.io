@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/advisory/";
           },
+        },{id: "nav-interviews",
+          title: "Interviews",
+          description: "Interviews in newspapers and on television about Artificial Intelligence, technology and education.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/interviews/";
+          },
         },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
         
           title: "LLMs para análisis de sentimiento político en redes sociales",
@@ -272,66 +279,86 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-proactive-cyber-defense-and-counter-disinformation",
-          title: 'Proactive Cyber Defense and Counter-Disinformation',
-          description: "Collaborating Researcher · 2026–2028",
+          section: "News",},{id: "projects-ai-assurance-for-aviation-and-safety-critical-systems",
+          title: 'AI Assurance for Aviation and Safety-Critical Systems',
+          description: "Research on trustworthy and reliable AI for aviation and safety-critical systems, with a focus on decision assurance, human oversight and the operational validation of Generative AI outputs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/01_cyberdefense/";
-            },},{id: "projects-digital-media-observatory-media-literacy-and-prevention-of-disinformation-operations",
-          title: 'Digital Media Observatory: Media Literacy and Prevention of Disinformation Operations',
-          description: "Collaborating Researcher · 2024–2026",
+              window.location.href = "/projects/ai-assurance-aviation-safety-critical-systems/";
+            },},{id: "projects-ai-for-cyberlearning-and-data-analytics-education",
+          title: 'AI for Cyberlearning and Data Analytics Education',
+          description: "Research on Cyberlearning, Learning Analytics and AI-assisted education, focusing on student success, educational innovation, data-driven learning environments and the responsible integration of Artificial Intelligence into higher education.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/03_digital_media_observatory/";
-            },},{id: "projects-test-ai-generative-ai-for-effective-software-test-automation",
-          title: 'Test-AI: Generative AI for Effective Software Test Automation',
-          description: "Collaborating Researcher · 2023–2026",
+              window.location.href = "/projects/ai-cyberlearning-data-analytics-education/";
+            },},{id: "projects-proactive-ai-for-information-integrity-and-counter-disinformation",
+          title: 'Proactive AI for Information Integrity and Counter-Disinformation',
+          description: "Research project developed by Tecnológico de Monterrey and the Cybersecurity Agency of El Salvador, focused on applied research in cyber defense and on countering disinformation operations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/04_test_ai/";
-            },},{id: "projects-llm4gov-privacy-preserving-fine-tuning-and-deployment-of-large-language-models-for-the-public-sector",
-          title: 'LLM4Gov: Privacy-Preserving Fine-Tuning and Deployment of Large Language Models for the Public Sector...',
-          description: "Collaborating Researcher · 2024–2026",
+              window.location.href = "/projects/ai-information-integrity-counter-disinformation/";
+            },},{id: "projects-ai-for-urban-analytics-and-geospatial-decision-support",
+          title: 'AI for Urban Analytics and Geospatial Decision Support',
+          description: "Research on Artificial Intelligence and urban representation learning for geospatial data, including the identification of potential disparities in crime reporting in Mexico City.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/05_llm4gov/";
-            },},{id: "projects-beenet-ai-based-intelligent-platform-for-employment-matching-and-human-resources",
-          title: 'BeeNet: AI-Based Intelligent Platform for Employment Matching and Human Resources',
-          description: "Principal Investigator · 2017–2023",
+              window.location.href = "/projects/ai-urban-analytics-geospatial-decision-support/";
+            },},{id: "projects-beenet-ai-for-employment-matching-and-workforce-intelligence",
+          title: 'BeeNet: AI for Employment Matching and Workforce Intelligence',
+          description: "Research, development and innovation program aimed at building an intelligent platform for analyzing professional skills, matching people with job opportunities, and supporting recruitment and internal mobility processes.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/06_beenet/";
-            },},{id: "projects-fadcil-ai-for-automatic-detection-of-covid-19-in-ct-scans",
-          title: 'FADCIL: AI for Automatic Detection of COVID-19 in CT Scans',
-          description: "Principal Investigator · 2020–2023",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/07_fadcil/";
-            },},{id: "projects-siion-an-intelligent-system-for-identifying-business-opportunities-using-geospatial-data",
-          title: 'SIION: An Intelligent System for Identifying Business Opportunities Using Geospatial Data',
-          description: "Principal Investigator · 2018–2019",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/08_siion/";
-            },},{id: "projects-social-network-analysis-and-mining",
-          title: 'Social Network Analysis and Mining',
-          description: "Collaborating Researcher · 2015–2018",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/09_social_network_analysis/";
-            },},{id: "projects-mining-user-behavior-in-location-based-social-networks",
-          title: 'Mining User Behavior in Location-Based Social Networks',
-          description: "Researcher (Ph.D. project) · 2014–2017",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_location_based_social_networks/";
-            },},{id: "projects-challenges-in-exploratory-visualization-of-multidimensional-data-paradigms-scalability-and-applications",
-          title: 'Challenges in Exploratory Visualization of Multidimensional Data: Paradigms, Scalability and Applications',
-          description: "Collaborating Researcher · 2012–2016",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_exploratory_visualization/";
-            },},{id: "projects-link-prediction-in-complex-networks-using-community-structure-information",
-          title: 'Link Prediction in Complex Networks Using Community Structure Information',
-          description: "Researcher (M.Sc. project) · 2011–2013",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_link_prediction/";
+              window.location.href = "/projects/beenet-ai-employment-matching-workforce-intelligence/";
             },},{id: "projects-corelytics-generative-ai-agents-for-data-analytics",
           title: 'Corelytics: Generative AI Agents for Data Analytics',
           description: "Research and development project on the use of Generative AI and intelligent agents to support Data Analytics and Data Science projects, with a focus on AI-assisted learning, analytical workflows and agent-based support systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/corelytics/";
+            },},{id: "projects-digital-media-observatory-media-literacy-and-prevention-of-disinformation-operations",
+          title: 'Digital Media Observatory: Media Literacy and Prevention of Disinformation Operations',
+          description: "Interdisciplinary project developed with the Digital Media Observatory of Tecnológico de Monterrey to study digital media, public opinion and disinformation phenomena through Data Analytics, Natural Language Processing (NLP), Machine Learning and Large Language Models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/digital-media-observatory-disinformation/";
+            },},{id: "projects-challenges-in-exploratory-visualization-of-multidimensional-data-paradigms-scalability-and-applications",
+          title: 'Challenges in Exploratory Visualization of Multidimensional Data: Paradigms, Scalability and Applications',
+          description: "Thematic research project on the methodological and computational challenges of exploratory visualization of multidimensional data, including new paradigms, scalability and applications.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/exploratory-visualization-multidimensional-data/";
+            },},{id: "projects-fadcil-ai-for-medical-imaging-and-clinical-decision-support",
+          title: 'FADCIL: AI for Medical Imaging and Clinical Decision Support',
+          description: "Deep Learning system developed for the automated detection of COVID-19 and the quantification of lung lesions in computed tomography (CT) scans.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fadcil-ai-medical-imaging-clinical-decision-support/";
+            },},{id: "projects-link-prediction-in-complex-networks-using-community-structure-information",
+          title: 'Link Prediction in Complex Networks Using Community Structure Information',
+          description: "Master&#39;s research aimed at developing link prediction methods for complex networks based on structural and community information.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/link-prediction-complex-networks-community-structure/";
+            },},{id: "projects-llm-security-robustness-and-adversarial-defense",
+          title: 'LLM Security, Robustness and Adversarial Defense',
+          description: "Research on security, robustness and adversarial threats in Large Language Model systems, with a focus on prompt injection, guardrails and reliable deployment of LLM-based applications.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-security-robustness-adversarial-defense/";
+            },},{id: "projects-llms-for-the-legal-domain-instruction-fine-tuning-and-model-adaptation",
+          title: 'LLMs for the Legal Domain: Instruction Fine-Tuning and Model Adaptation',
+          description: "Applied research project on the adaptation and evaluation of Large Language Models for government and legal contexts involving sensitive data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llms-legal-domain-instruction-fine-tuning/";
+            },},{id: "projects-mining-user-behavior-in-location-based-social-networks",
+          title: 'Mining User Behavior in Location-Based Social Networks',
+          description: "Doctoral project focused on the study of social, structural and mobility information in location-based social networks, with an emphasis on modeling user behavior and predicting relationships.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/location-based-social-networks-user-behavior/";
+            },},{id: "projects-siion-intelligent-business-opportunity-discovery-from-geospatial-data",
+          title: 'SIION: Intelligent Business Opportunity Discovery from Geospatial Data',
+          description: "Research and development project on the use of Artificial Intelligence, recommender systems and geospatial data to identify and recommend business opportunities in urban areas.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/siion-business-opportunity-discovery-geospatial-data/";
+            },},{id: "projects-social-network-analysis-and-mining",
+          title: 'Social Network Analysis and Mining',
+          description: "Research project on the analysis and mining of complex networks, including relational learning, graph construction, classification and link prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/social-network-analysis-mining/";
+            },},{id: "projects-test-ai-generative-ai-for-software-test-automation",
+          title: 'Test-AI: Generative AI for Software Test Automation',
+          description: "Research project on the application of Generative AI to software test automation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/test-ai-generative-ai-software-test-automation/";
             },},{id: "teachings-web-analytics-data-analytics-amp-big-data",
           title: 'Web Analytics, Data Analytics &amp;amp; Big Data',
           description: "Courses in **web analytics**, **data analytics**, and **big data** for business and analytics programs. Guided students in applied analytics projects for industry clients.",
