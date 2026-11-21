@@ -67,6 +67,20 @@
     }
   }
 
+  // Nine pages plus search and theme toggle: slightly tighter links, and the
+  // search shows only its icon (the shortcut keeps working and is in the
+  // tooltip), so the expanded menu stays on one line inside the 930px container.
+  @media (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+    }
+
+    #search-toggle .search-shortcut {
+      display: none;
+    }
+  }
+
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;

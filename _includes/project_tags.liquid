@@ -1,0 +1,28 @@
+{% comment %}
+  Card tags built from a project's front matter:
+  `status` (ongoing | completed), `application` and `topics`.
+  Usage: {% include project_tags.liquid project=project %}
+{% endcomment %}
+{% assign tag_project = include.project %}
+{% if tag_project.status or tag_project.application or tag_project.topics %}
+  <div class="project-card-tags">
+    {% if tag_project.status %}
+      {% assign status_slug = tag_project.status | downcase %}
+      {% case status_slug %}
+        {% when 'ongoing' %}
+          {% assign status_class = 'badge-success' %}
+        {% when 'completed' %}
+          {% assign status_class = 'badge-dark' %}
+        {% else %}
+          {% assign status_class = 'badge-info' %}
+      {% endcase %}
+      <span class="badge {{ status_class }}">{{ tag_project.status | upcase }}</span>
+    {% endif %}
+    {% if tag_project.application %}
+      <span class="badge badge-primary">{{ tag_project.application | upcase }}</span>
+    {% endif %}
+    {% for topic in tag_project.topics %}
+      <span class="badge badge-secondary">{{ topic | upcase }}</span>
+    {% endfor %}
+  </div>
+{% endif %}

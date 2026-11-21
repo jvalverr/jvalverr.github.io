@@ -21,7 +21,8 @@ layout: default
   </article>
 
   {% if page.related_publications %}
-    <h2>References</h2>
+    {% comment %} Heading can be renamed per page with `related_publications_title` in the front matter. {% endcomment %}
+    <h2>{{ page.related_publications_title | default: 'Scientific publications' }}</h2>
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>

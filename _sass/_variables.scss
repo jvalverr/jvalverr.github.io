@@ -28,6 +28,11 @@ $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
+// Project tags: darker variants of MDB's badge colors so white text passes AA (≥ 4.5:1)
+$grey-completed-tag: #5f6368; // completed · 6.0:1, also visible on dark cards
+$green-ongoing-tag: #007e33; // ongoing · 5.2:1
+$blue-application-tag: #1a6ae0; // application · 5.0:1
+$purple-topic-tag: #9933cc; // topics · 5.7:1
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;

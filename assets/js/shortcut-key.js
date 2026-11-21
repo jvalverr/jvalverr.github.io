@@ -2,10 +2,12 @@
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "interactive") {
     let isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-    let shortcutKeyElement = document.querySelector("#search-toggle .nav-link");
+    let searchToggle = document.querySelector("#search-toggle");
+    let shortcutKeyElement = document.querySelector("#search-toggle .search-shortcut");
     if (shortcutKeyElement && isMac) {
-      // use the unicode for command key
-      shortcutKeyElement.innerHTML = '&#x2318; k <i class="fa-solid fa-magnifying-glass"></i>';
+      // use the unicode for command key (label and tooltip)
+      shortcutKeyElement.textContent = "⌘ k";
+      searchToggle.title = "Search (⌘ k)";
     }
   }
 });
