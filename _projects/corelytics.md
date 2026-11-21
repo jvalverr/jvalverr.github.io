@@ -148,7 +148,6 @@ projects**.
 - Human-AI Collaboration
 - Computational Thinking
 
-
 {% comment %}
 Pending (empty in the source document): Funding.
 {% endcomment %}

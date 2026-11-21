@@ -156,8 +156,9 @@
         }
       }
 
+      // No height cap once open: a fixed cap (it was 100em) cut long abstracts on narrow screens.
       .hidden.open {
-        max-height: 100em;
+        max-height: none;
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;

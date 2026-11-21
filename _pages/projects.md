@@ -9,15 +9,24 @@ description: >-
 nav: true
 nav_order: 3
 horizontal: false
+# Every project's `category` must be one of these slugs, or it will not be listed on this page.
 display_categories:
-  - llm-and-generative-ai
-  - responsible-ai
-  - applied-ai
+  - ai-for-cybersecurity
+  - ai-for-government-and-society
+  - ai-for-education-and-cyberlearning
+  - ai-for-software-engineering
+  - ai-for-healthcare
+  - urban-and-enterprise-analytics
+  - social-network-analysis
 # Readable section titles for the category slugs above (slugs stay as anchors and in each project's `category`)
 category_titles:
-  llm-and-generative-ai: LLM & Generative AI
-  responsible-ai: Responsible AI
-  applied-ai: Applied AI
+  ai-for-cybersecurity: AI for Cybersecurity & Critical Systems
+  ai-for-government-and-society: AI for Government & Society
+  ai-for-education-and-cyberlearning: AI for Education & Cyberlearning
+  ai-for-software-engineering: AI for Software Engineering
+  ai-for-healthcare: AI for Healthcare
+  urban-and-enterprise-analytics: Urban & Enterprise Analytics
+  social-network-analysis: Social Network Analysis
 ---
 
 <!-- pages/projects.md -->

@@ -2,6 +2,8 @@
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
 
+@use "variables" as v;
+
 // Checklist
 
 ul.task-list {
@@ -50,6 +52,29 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+
+// Project tags (cards and project pages): MDB's default badge colors are too
+// light for white text (AA), and its dark badge disappears on dark-mode cards.
+// (MDB sets badge colors with !important, so the overrides need it too.)
+
+.project-card-tags,
+.project-tags {
+  .badge-success {
+    background-color: v.$green-ongoing-tag !important;
+  }
+
+  .badge-primary {
+    background-color: v.$blue-application-tag !important;
+  }
+
+  .badge-secondary {
+    background-color: v.$purple-topic-tag !important;
+  }
+
+  .badge-dark {
+    background-color: v.$grey-completed-tag !important;
   }
 }
 
@@ -165,6 +190,19 @@ ul.task-list input[type="checkbox"] {
     .card-title {
       font-size: 1.25rem;
       line-height: 1.35;
+    }
+
+    // Status, application and topic tags (from the project's front matter)
+    .project-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.75rem;
+
+      .badge {
+        white-space: normal;
+        text-align: left;
+      }
     }
   }
 
