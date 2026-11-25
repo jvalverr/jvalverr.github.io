@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Interviews
-permalink: /interviews/
-description: Interviews in newspapers and on television about Artificial Intelligence, technology and education.
+title: Media
+permalink: /media/
+description: Talks and interviews in newspapers and on television about Artificial Intelligence, technology and education.
 nav: true
 nav_order: 8
 ---
 
-<!-- Add new interviews at the top of their section (newest first). Files linked from here live in the /docs folder. -->
+<!-- Add new interviews and other media information at the top of their section (newest first). Files linked from here live in the /docs folder. -->
 
 ## Newspapers
 
