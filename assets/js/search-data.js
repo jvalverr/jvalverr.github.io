@@ -58,12 +58,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/advisory/";
           },
-        },{id: "nav-interviews",
-          title: "Interviews",
-          description: "Interviews in newspapers and on television about Artificial Intelligence, technology and education.",
+        },{id: "nav-media",
+          title: "Media",
+          description: "Talks and interviews in newspapers and on television about Artificial Intelligence, technology and education.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/interviews/";
+            window.location.href = "/media/";
           },
         },{id: "post-llms-para-análisis-de-sentimiento-político-en-redes-sociales",
         
